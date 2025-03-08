@@ -19,7 +19,7 @@
 <meta property="og:description" content="两天前父亲家的人过来拜年，虽然前一天晚上从电话里得知这个消息但是一觉醒来又给忘记了。早上来的时候也没做准备，甚至房间也没收拾好。　　　　来了不少人，其中有小姑家的和小佬家的人，由于事先没做准备，所以招待有些仓促不周，将每个人接待好后我便独自回房间去了。　　　　好在外公外婆今早也回来，对于我而言气氛也缓和了许多，帮他们从车上拿了很多重物回来，气喘吁吁回到家里，却闻到家中在煮鸭子，那种气味我没法忍">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-28T22:35:25.000Z">
-<meta property="article:modified_time" content="2025-03-07T17:38:21.000Z">
+<meta property="article:modified_time" content="2025-03-08T04:17:28.827Z">
 <meta property="article:author" content="Sebastian Zhang">
 <meta property="article:tag" content="日记">
 <meta name="twitter:card" content="summary">
@@ -402,94 +402,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- APlayer 样式 -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-    </head>
-    <body>
-        <!-- 播放器容器 -->
-        <div id="aplayer"></div>
-
-        <!-- 依赖库 -->
-        <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
-
-        <!-- 主逻辑 -->
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // 初始化播放器
-            const ap = new APlayer({
-                container: document.getElementById('aplayer'),
-                fixed: true,
-                mini: true,
-                autoplay: false,
-                mutex: true,
-                theme: '#2980b9',
-                loop: 'all',
-                order: 'random',
-                preload: 'auto',
-                audio: []
-            });
-
-            // 状态保存系统
-            window.onbeforeunload = () => {
-                localStorage.setItem("playInfo", JSON.stringify({
-                    index: ap.list.index,
-                    currentTime: ap.audio.currentTime,
-                    paused: ap.paused
-                }));
-            };
-
-            // 音乐加载系统
-            fetch('https://api.i-meto.com/meting/api?server=netease&type=playlist&id=13366111535')
-                .then(response => {
-                    if (!response.ok) throw new Error('网络响应异常');
-                    return response.json();
-                })
-                .then(data => {
-                    // 数据格式标准化
-                    const musicList = Array.isArray(data) ? data : [data];
-                    
-                    // 清空并更新播放列表
-                    ap.list.clear();
-                    ap.list.add(musicList);
-
-                    // // 状态恢复系统
-                    // const playInfo = JSON.parse(localStorage.getItem("playInfo"));
-                    // if (playInfo) {
-                    //     ap.list.switch(playInfo.index);
-                        
-                    //     // 使用事件监听确保加载完成
-                    //     ap.on('loadeddata', () => {
-                    //         ap.seek(playInfo.currentTime);
-                    //         if (!playInfo.paused) ap.play();
-                    //     });
-                    // }
-                })
-                .catch(error => {
-                    console.error('音乐加载失败:', error);
-                    ap.list.add([{
-                        name: '加载失败',
-                        artist: '系统提示',
-                        url: '',
-                        cover: ''
-                    }]);
-                });
-
-            // 交互式播放解锁
-            let hasUserInteracted = false;
-            document.body.addEventListener('click', () => {
-                if (!hasUserInteracted) {
-                    hasUserInteracted = true;
-                    if (ap.paused) ap.play();
-                }
-            });
-
-            // 全局访问（可选）
-            window.ap = ap;
-        });
-        </script>
-    </body>
 
 
         <!-- 【custom.html】 -->
@@ -497,7 +409,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         <script>
             var pjax = new Pjax({
             selectors: [
-                ".mid-col","tools-col show"
+                ".container",".body-wrap",
             ]
             })
         </script>
@@ -519,9 +431,12 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
                 }
             }
         </script>
+
+
         
 
 </html>
+
     
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
   <div class="tools-nav header-menu">
@@ -737,5 +652,99 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
   </div>
 <!-- 插入在 </body> 标签之前 -->
 <div id="aplayer-global" class="aplayer"></div>
+
+
+
 </body>
-</html>
+
+
+<head>
+  <!-- APlayer 样式 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+</head>
+<body>
+  <!-- 播放器容器 -->
+  <div id="aplayer"></div>
+
+  <!-- 依赖库 -->
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+  <!-- 主逻辑 -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      // 初始化播放器
+      const ap = new APlayer({
+          container: document.getElementById('aplayer'),
+          fixed: true,
+          mini: true,
+          autoplay: false,
+          mutex: true,
+          theme: '#2980b9',
+          loop: 'all',
+          order: 'random',
+          preload: 'auto',
+          audio: []
+      });
+
+      // 状态保存系统
+      window.onbeforeunload = () => {
+          localStorage.setItem("playInfo", JSON.stringify({
+              index: ap.list.index,
+              currentTime: ap.audio.currentTime,
+              paused: ap.paused
+          }));
+      };
+
+      // 音乐加载系统
+      fetch('https://api.i-meto.com/meting/api?server=netease&type=playlist&id=13366111535')
+          .then(response => {
+              if (!response.ok) throw new Error('网络响应异常');
+              return response.json();
+          })
+          .then(data => {
+              // 数据格式标准化
+              const musicList = Array.isArray(data) ? data : [data];
+              
+              // 清空并更新播放列表
+              ap.list.clear();
+              ap.list.add(musicList);
+
+              // // 状态恢复系统
+              // const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+              // if (playInfo) {
+              //     ap.list.switch(playInfo.index);
+                  
+              //     // 使用事件监听确保加载完成
+              //     ap.on('loadeddata', () => {
+              //         ap.seek(playInfo.currentTime);
+              //         if (!playInfo.paused) ap.play();
+              //     });
+              // }
+          })
+          .catch(error => {
+              console.error('音乐加载失败:', error);
+              ap.list.add([{
+                  name: '加载失败',
+                  artist: '系统提示',
+                  url: '',
+                  cover: ''
+              }]);
+          });
+
+      // 交互式播放解锁
+      let hasUserInteracted = false;
+      document.body.addEventListener('click', () => {
+          if (!hasUserInteracted) {
+              hasUserInteracted = true;
+              if (ap.paused) ap.play();
+          }
+      });
+
+      // 全局访问（可选）
+      window.ap = ap;
+  });
+  </script>
+</body>
+
+
