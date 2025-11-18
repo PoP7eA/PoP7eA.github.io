@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="/custom.css">
+
   <meta charset="utf-8">
   
   <meta name="renderer" content="webkit">
@@ -43,10 +46,10 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F391cf7eb-57f3-49c6-8bf3-eda494c84534%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&amp;refer=http%3A%2F%2Fsafe-img.xhscdn.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=auto?sec=1677117037&amp;t=1a6d1aea11d1d02b9a36d6229585439a" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/"></a></h1>
+		  <h1 class="header-author"><a href="/">PoP7eA</a></h1>
 		</hgroup>
 		
 
@@ -56,6 +59,8 @@
 				<li><a href="/">主页</a></li>
 	        
 				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+	        
+				<li><a href="/tags/%E6%97%A5%E8%AE%B0/">日记</a></li>
 	        
 			</ul>
 		</nav>
@@ -77,16 +82,22 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="github" target="_blank" href="https://github.com/PoP7eA" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2154779960&amp;site=qq&amp;menu=yes" title="qq"><i class="icon-qq"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="bilibili" target="_blank" href="https://space.bilibili.com/30705629" title="bilibili"><i class="icon-bilibili"></i></a>
 		        
 			</div>
 		</nav>
+
+
+<!-- 网易云播放器<div class="music-player">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=375 src="//music.163.com/outchain/player?type=0&id=13366111535&auto=1&height=430"></iframe>
+</div> -->
+
+<div id="aplayer-container"></div>
+
 	</header>		
 </div>
 
@@ -101,13 +112,15 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F391cf7eb-57f3-49c6-8bf3-eda494c84534%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&amp;refer=http%3A%2F%2Fsafe-img.xhscdn.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=auto?sec=1677117037&amp;t=1a6d1aea11d1d02b9a36d6229585439a" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author"></h1>
+			  <h1 class="header-author js-header-author">PoP7eA</h1>
 			</hgroup>
 			
 			
+			
+				
 			
 				
 			
@@ -118,24 +131,24 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="github" target="_blank" href="https://github.com/PoP7eA" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2154779960&amp;site=qq&amp;menu=yes" title="qq"><i class="icon-qq"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="bilibili" target="_blank" href="https://space.bilibili.com/30705629" title="bilibili"><i class="icon-bilibili"></i></a>
 			        
 				</div>
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="/tags/%E6%97%A5%E8%AE%B0/">日记</a></li>
 		        
 				</ul>
 			</nav>
@@ -152,27 +165,27 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-23年10月14日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-24年1月10日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/10/14/23%E5%B9%B410%E6%9C%8814%E6%97%A5/">10月14日</a>
+      <a class="article-title" href="/2024/01/10/24%E5%B9%B41%E6%9C%8810%E6%97%A5/">24年1月10日</a>
     </h1>
   
 
         
-        <a href="/2023/10/14/23%E5%B9%B410%E6%9C%8814%E6%97%A5/" class="archive-article-date">
-  	<time datetime="2023-10-14T14:31:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-10-14</time>
+        <a href="/2024/01/10/24%E5%B9%B41%E6%9C%8810%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2024-01-10T14:39:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-01-10</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　今天起床并不是很早，即便我已经7:30醒了，10:00多的时候去了一趟人民路，主要是做两件事，想看看前沿后记的书店有没有装修好，但是很可惜书店前面的围栏依然存在。不过我可以看到二楼内有人在打扫卫生，说明这次的装修快要完成了。其次，就是把我的AirPods耳机的查找功能做一下返厂检修，在那里搞了好一会儿之后耳机终于拿去返厂，值得一提的是那里的蚊子特别多，在那里呆一会儿脸上就已经被咬了三口。<br>　　伯伯今天中午过来了，主要是想看一下我的状态，并且我和家里人吃了饭。由于我早上吃的比较晚，所以中午也没有吃太多。<br>　　下午打了一会儿英雄联盟，期间唐科长布置了solidworks的图纸作业，并要求我们在25号之前搞完。<br>　　吃完晚饭后感觉呆在家里有些烦闷，于是找了很久没见面的王良轩在他家做了聊了好一会儿，和他说话感觉受益匪浅，从中我学习到一个道理：闭门造车是下下之策，要多和别人交流，以此扩大自己的人际网，找到行业内情，获取到信息差，从中才能获得更高的利益。很多信息并不是你坐在家里就能获得的，必须要多去沟通多去认识人，当然拥有一个好的交际能力是非常的重要。<br>　　他人很好，回去的路上是他骑车送我的。今晚也要早些休息，明天要上班。</p>
+        <p>　　昨天上午125T液压机到了，除了压机本身是由10T叉车挪过来，其他的东西都是我在搬，之前画线也有问题，总之我在这件事情上精疲力竭。这个星期都在加班，主要是还有一个末端尺寸检测项目要着急赶，今天项目经理还找到我开了会，要求今天把项目完成，虽然不知道最终怎么回事，至少现在的任务交给了质保科那边。<br>　　好像又到了丢东西的季节，突然想着戴眼镜但发现眼镜找不到了，我也记不清上次戴眼镜是什么时候的事情。找了几天无果后自己买了一个黑框75度的，感觉还可以，但是我妈说太老土了。单位的工作帽也搞丢了，于是打了单子要了三个帽子（我、唐科长还有一个备用），后来发现我把帽子放在了彭蔚桌上……<br>　　黄阿姨那边果然没希望，之前说的那个帮忙的人打算过年辞去之前的工作来她那儿当全职，这样我就没机会了，不过她给我介绍了一个名文的教育机构，同我于周六面试。</p>
 
       
 
@@ -196,7 +209,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/10/14/23%E5%B9%B410%E6%9C%8814%E6%97%A5/">展开全文 >></a>
+          <a class="article-more-a" href="/2024/01/10/24%E5%B9%B41%E6%9C%8810%E6%97%A5/">展开全文 >></a>
         </p>
       
 
@@ -226,27 +239,27 @@
 
 
   
-    <article id="post-23年10月11日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-24年1月7日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/10/11/23%E5%B9%B410%E6%9C%8811%E6%97%A5/">10月11日</a>
+      <a class="article-title" href="/2024/01/07/24%E5%B9%B41%E6%9C%887%E6%97%A5/">24年1月7日</a>
     </h1>
   
 
         
-        <a href="/2023/10/11/23%E5%B9%B410%E6%9C%8811%E6%97%A5/" class="archive-article-date">
-  	<time datetime="2023-10-10T22:46:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-10-11</time>
+        <a href="/2024/01/07/24%E5%B9%B41%E6%9C%887%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2024-01-07T11:16:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-01-07</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　今天上午没什么事情，基本都是在三楼纯水机房看师傅给设备接线下火，只是一直站着腿有点酸。<br>　　科长联系我，之前的技术协议少整合了安全护栏，现在让我和pms的经理沟通加进去。<br>　　鹿乃的歌最近收藏了两首，一首是how are you，一首是Q&amp;A ，两首先后相差八年，听完后感觉鹿乃的唱功成长好多。<br>　　也在翻之前的日记，也会想自己成长了多少，变好了还是变坏了，Apple Music也在早上给我推Letter Song，挺……恰到好处的。<br>　　下午的事情有点小多，纯水设备出了一系列的问题，不过幸亏得到解决。<br>　　被拉到了公司举办的运动会的群，举办地点是市体育场。</p>
+        <p>　　至少刚来公司的一段时间里我是觉得到周末是很痛快的一件事，但是随着任务的增多我的这种感觉逐渐就消失了，直接原因还是因为周末工厂不休息，很多项目需要等着你亲自去处理，因此周末也没法成为一个敞开放松的时间。<br>　　那就出现问题了：如果工作之后精神也得不到放松的话，那对于我工作的初衷便本末倒置了，我工作赚钱就是为了能在空闲的时候玩的更好更开心，如果我在一周为数不多的几天里还要操心工作的事情，那谈何开心呢？更有意思的是，今天唐科长在群里发布了新通知，要求周末加班要准时上下班，我不知道为什么突然要发布这样的通知，但是至少我以后即便是没事的时候也没法只加班半天了。<br>　　昨天晚上十点左右，小狗屡次跑的爷爷奶奶房间中去，我大概是猜到想上厕所，于是大晚上带他出去遛弯，即便是牵绳子小狗也非常的不配合，生拉硬拽之下终于带回了楼下，他却怎么也不肯上去了，一气之下我解开绳子他一溜烟跑走了，后来找了好久都没找到他。于是家里人也着急了，全员出动找这不听话的小狗，狗是最终找到了，但是也到了大半夜。唉，也是让人操心的主。<br>　　王阿姨回复我了，大概是没进展，还说帮我联系下名门，我猜也是没啥希望。<br>　　没办法，先继续在厂里干着呗。</p>
 
       
 
@@ -270,7 +283,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/10/11/23%E5%B9%B410%E6%9C%8811%E6%97%A5/">展开全文 >></a>
+          <a class="article-more-a" href="/2024/01/07/24%E5%B9%B41%E6%9C%887%E6%97%A5/">展开全文 >></a>
         </p>
       
 
@@ -300,103 +313,27 @@
 
 
   
-    <article id="post-23年10月10日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-补偿" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/10/10/23%E5%B9%B410%E6%9C%8810%E6%97%A5/">10月10日</a>
+      <a class="article-title" href="/2024/01/05/%E8%A1%A5%E5%81%BF/">补偿</a>
     </h1>
   
 
         
-        <a href="/2023/10/10/23%E5%B9%B410%E6%9C%8810%E6%97%A5/" class="archive-article-date">
-  	<time datetime="2023-10-10T13:51:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-10-10</time>
+        <a href="/2024/01/05/%E8%A1%A5%E5%81%BF/" class="archive-article-date">
+  	<time datetime="2024-01-05T14:18:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-01-05</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　最近听到一句半玩笑的话，如果觉得八天的假期过得太短，那你马上就会体会到七天的工作有多长了。虽然上了四天的班，但实际上今天才是周二，而我还要面对周六或周日的加班。<br>　　国庆的安排还是挺满的，前两日回到乡下分别参加了江西姐姐和小毛舅的婚礼，其中带来的感受是“与素不相识的人交谈攀关系，却与宴会上的正主交流不过几句”。这期间我带张宇星去了望江县城，回来时候车还掉到沟渠中，靠小舅和一个路过的热心大叔才得以脱身。<br>　　后两日去武汉同张逸飞一道随心旅游，拍了很多张照片放在了icloud上。回来前买了当地的特产和两本书，一本是村上春树的《且听风吟》，一本是宫村贤治的《银河铁道之旅》<br>　　由于猛玩了这么多天，后面几日都是精神不振，无精打采。<br>　　今日发工资，比上个月少了些，原因是这个月多补交公积金的费用，下个月就会恢复。<br>　　今晚就在看银河铁道之旅，本以为是很轻松的童话故事，没想到后面的内容却如此深刻让人意难平。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2023/10/10/23%E5%B9%B410%E6%9C%8810%E6%97%A5/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-对糖的奇思妙想" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/10/06/%E5%AF%B9%E7%B3%96%E7%9A%84%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/">对糖的奇思妙想</a>
-    </h1>
-  
-
-        
-        <a href="/2023/10/06/%E5%AF%B9%E7%B3%96%E7%9A%84%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/" class="archive-article-date">
-  	<time datetime="2023-10-06T09:35:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-10-06</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>　　想吃糖！<br>　　今天我喝咖啡的时候突然脑子闪过这样一个想法，而且重复确认这个想法的时候这份欲望变得更强烈了些。<br>　　我又泯了一口咖啡，对没喝过的人来说是挺苦的，但作为一个“身经百战”的我而言根本没有任何问题。<br>　　就是说嘛！我自小学毕业之后就开始尝试喝各种各样的咖啡了，除了能面对逐渐加重的学业保持精神的状态以外，我不知道从哪晓得的这是成年人喝的饮料，潜意识中就给这味同猫屎的东西贴上了“成熟”的标签。借这第一次精神振作带来的快感，我逐渐习惯了这种味道，并自以为是的品鉴起来。<br>　　后来成年后阴差阳错的喝上了白酒，我不记得第一次是什么时候也不知道是什么原因才喝的，只知道第一次喝的感觉反应剧烈，完全没法接受白酒的味道和它在我口腔留下的灼痕，更没法接受它进入我身体后一段时间产生的生理反应（也许只是打嗝呛到鼻子了www），不过我记得喝下之后听到了周围人的赞许和笑声，于是坚持了下去。认同感和酒精是可以模糊判断对错的吧，现在想来。<br>　　不知过了多久，我真把自己当个成熟的大人了。对什么事情都保持固执的态度，不服不同的意见。就比方前些日子瑞幸咖啡不是联动了贵州茅台吗，那个咖啡营销做的很好，好多人都抢着买，很快就断货了。不过人们对这个新品不是很认可，他们认为这个味道很奇怪，给了一个如此具象的比喻：呕吐时嘴巴里的味道。<br>　　过了一段时间我有幸买到了，带着先入为主的观念喝了几口，没觉得有多奇怪，反而喝到最后因为它多加奶油的原因反而觉得好喝了。我就觉得奇怪，为什么那么多人觉得不好喝但我偏偏是例外？我自己给出了解释：因为评价的人都没什么品味，他们要么没喝过咖啡，要么没喝过白酒，两个结合在一起他们就接受不了了，而我两个都能驾驭，自然而然成为了享受者……说到底还是他们见识少了！想到这里我就翘起鼻子来。<br>　　后来我就跟发小鼠吹嘘此事来，不巧他刚好不喝白酒和咖啡。<br>　　鼠对我的想法不以为然， 他拌了拌蜜雪冰城的柠檬水，把里面的柠檬压在最底下：“萝卜白菜各有所爱，不能因为他们不喜欢这种味道就说品味不如自己吧。”我都快膨胀到天上了怎么能接受这样的意见呢，摆摆手说：“喝不来就是喝不来，萝卜白菜是个人都能吃得，咖啡和白酒小孩子几乎碰不得，要我讲，说茅台咖啡不好喝的肯定是小孩子！”鼠噗嗤笑了，两颗“老鼠门牙”露了出来，他抬了抬吸管对我说：“那这样，我这杯没加糖，柠檬水再怎么涩你别也拒绝啊。”我缩过头“诡辩！”于是在这个话题上和他闹的不欢而散。<br>　　不对，感觉自己扯远了……明明是想说自己为什么想吃糖来着，是的，为啥想吃糖呢。<br>　　我小学毕业前是喜欢吃糖的，因为家里条件有限，吃的糖的种类很简单。由于吃糖太过频繁，牙齿都长蛀虫了，晚上痛的不行，终于在妈妈的教训下有所收敛，之后去医院补了牙（还好之后换了牙，直到现在还很注重口腔卫生www）<br>　　长大后搬了家，有很多东西因为太麻烦的缘故就留在那里，其中就有我吃的糖。不过那时候也没想那么多，反而渐渐忘记了。<br>　　虽然后来也接触过不少的糖果，但因为物质条件丰富的缘故糖果也变得花里胡哨起来，好吃归好吃，但没法好吃到触及到灵魂2333，也不知道你懂不懂，总之就是不如我那个快要忘记的小时候吃的糖。<br>　　我相信你已经猜到了，我今天就像是怀孕的人一样突然在喝咖啡的时候砸吧砸吧嘴想吃那种小时候吃过的糖。那真是见鬼了，哪里弄到这种糖呢？我在市场买了几个大众青睐的糖果含了起来，发现还是不太行。还得是原来那个，我问了下老爹，他说他也搞不清楚，不过在以前家附近的天桥有个糖果店挺多人的，没准就是在那买的，我于是又回到了那个地方，可是天桥下面的那家店早就没了，就好像是心照不宣的同我在小学毕业之后关了门。<br>　　不可能就专门这一家吧，我想。我没放弃寻找，算我运气好，在家叫西西弗的什锦店找到很少的这么一包。没啥高兴的，因为这家店不开在我住的地方。<br>　　不过，我发现我其实还是喜欢吃糖，特别特别特别喜欢吃。</p>
-<p><img src="/images/sugar.jpg">
-　　</p>
+        <p>　　看到一个本没什么瓜葛的人，却会陡然间联想起曾经的自己。人总是产生这样的幻觉，自以为无条件的帮助那个人，就好像穿梭了时空扶起了跌倒的自己。</p>
 
       
 
@@ -420,7 +357,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/10/06/%E5%AF%B9%E7%B3%96%E7%9A%84%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/">展开全文 >></a>
+          <a class="article-more-a" href="/2024/01/05/%E8%A1%A5%E5%81%BF/">展开全文 >></a>
         </p>
       
 
@@ -450,27 +387,27 @@
 
 
   
-    <article id="post-23年9月28日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-24年1月4日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/09/28/23%E5%B9%B49%E6%9C%8828%E6%97%A5/">9月28日</a>
+      <a class="article-title" href="/2024/01/04/24%E5%B9%B41%E6%9C%884%E6%97%A5/">24年1月4日</a>
     </h1>
   
 
         
-        <a href="/2023/09/28/23%E5%B9%B49%E6%9C%8828%E6%97%A5/" class="archive-article-date">
-  	<time datetime="2023-09-28T14:31:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-09-28</time>
+        <a href="/2024/01/04/24%E5%B9%B41%E6%9C%884%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2024-01-04T14:58:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-01-04</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　明天是中秋节，我选择了加班，因为买了手机的缘故，我现在手头上实在没有钱。节假日加班费调整到了一小时33元，如果我能干满10个小时那能回很多血。<br>　　唐科长没打算让我闲着，明天我得去包装部报道，要协助工作一整天，看来钱不好赚。<br>　　手头上的事情完成的差不多了，纯水项目得到节后才能继续，激光刻印机交付质保处理，2325压机自动上下料也没什么大问题了。<br>　　等30号晚上开车回老家睡觉就好。<br>　　即便如此……最长的假期也没给我带来任何有意思的地方。<br>　　我是否应该再寻出路？</p>
+        <p>　　今天和吴科长他们弄折弯管，由于我的操作不当导致芯棒折断，让他们提前得以下班。<br>　　回去后又收到唐科长电话，被要求回单位加班跟进设备，到晚上九点。<br>　　同时还有新项目被安排要做，是桂博CCD检测H03系列的管件。<br>　　虽说有调休这东西，但真的有休息时间吗？<br>　　家中的狗很听话，就是感觉不太活泼。</p>
 
       
 
@@ -494,7 +431,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/09/28/23%E5%B9%B49%E6%9C%8828%E6%97%A5/">展开全文 >></a>
+          <a class="article-more-a" href="/2024/01/04/24%E5%B9%B41%E6%9C%884%E6%97%A5/">展开全文 >></a>
         </p>
       
 
@@ -524,27 +461,27 @@
 
 
   
-    <article id="post-23年9月24日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-24年1月2日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/09/24/23%E5%B9%B49%E6%9C%8824%E6%97%A5/">9月24日</a>
+      <a class="article-title" href="/2024/01/02/24%E5%B9%B41%E6%9C%882%E6%97%A5/">24年1月2日</a>
     </h1>
   
 
         
-        <a href="/2023/09/24/23%E5%B9%B49%E6%9C%8824%E6%97%A5/" class="archive-article-date">
-  	<time datetime="2023-09-24T13:55:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-09-24</time>
+        <a href="/2024/01/02/24%E5%B9%B41%E6%9C%882%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2024-01-02T13:35:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-01-02</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　很久没有感觉到夏天的香气了。海潮的香、远处的汽笛、女孩子肌肤的触感、润丝精的柠檬香、黄昏的风、淡淡的希望、夏天的梦……但这些简直就像没对准的描图纸一样，一切的一切都跟回不来的过去，一点一点地错开了。<br>　　<br>　　——《且听风吟》</p>
+        <p>　　恍惚间用hexo写日记的时间已过去了一整年,心里本有很多话想说，但是一敲起键盘又不知道从何说起。我写日记的习惯不知道是从什么时候开始的，但目前所保管可翻阅的是16年的一本小练习册，写日记的目的是为了记录一些生活上有趣的事情，为我回首往昔之时能提供些许振奋。可是人生并非是喜忧参半，而是苦中求乐，所以最终在我一笔一划中依然留下了虚伪和埋怨的味道。不过时光作为咖啡伴侣，让人后来再次回忆起倒也没有那么苦闷，那些模糊的面庞渐渐的和善可爱了起来。当然，日记最主要的作用，还是提醒了我——原来在那个时候还发生了那样的事情啊。<br>　　元旦还是被叫到厂里去上班了，和李星宇和吴海一起搞了折弯机设备，到下午三点才得以回去。柴华六点钟就要走，于是最后一天我没和他见到面。<br>　　妈妈的同事的朋友（？）因为要出国，把自家一岁的小狗给了我们，品种是雪莱瑞，就是所谓的“老头狗”。小狗来的时候因为被其他狗弄伤了，眼睛和蛋蛋都弄了好大的伤，这两天都在照顾他。这个小狗很听话，也不吵闹，应该养起来不会很难。因为一些缘故，我至今没给他起名字。<br>　　元旦晚上，我和陈到外面吃了晚饭，然后在店里唱了歌。<br>　　有在跨年，我致敬了崔健的一块红布。<br>　　<br>　　<img src="/images/24.1.2.jpg"></p>
 
       
 
@@ -568,7 +505,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/09/24/23%E5%B9%B49%E6%9C%8824%E6%97%A5/">展开全文 >></a>
+          <a class="article-more-a" href="/2024/01/02/24%E5%B9%B41%E6%9C%882%E6%97%A5/">展开全文 >></a>
         </p>
       
 
@@ -598,101 +535,27 @@
 
 
   
-    <article id="post-凉爽是秋" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-23年12月30日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/09/22/%E5%87%89%E7%88%BD%E6%98%AF%E7%A7%8B/">凉爽是秋</a>
+      <a class="article-title" href="/2023/12/30/23%E5%B9%B412%E6%9C%8830%E6%97%A5/">23年12月30日</a>
     </h1>
   
 
         
-        <a href="/2023/09/22/%E5%87%89%E7%88%BD%E6%98%AF%E7%A7%8B/" class="archive-article-date">
-  	<time datetime="2023-09-22T14:32:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-09-22</time>
+        <a href="/2023/12/30/23%E5%B9%B412%E6%9C%8830%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2023-12-30T15:17:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-30</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　   啊……秋天到了。虽然时空遥转，但我能感受到，不可视的信使带着不可视的信件从家乡呼啸的向我传来讯息。皮肤像是受体一般勾起一段，不，是好几段不知许久未曾回想过的记忆。<br>　　    那是周一，下午最后一堂课是微机课，在幽暗的课室里是我唯一接触电脑的机会。铃声响起，那份依依不舍的情绪清楚的挂在胸间。倘若回去的路上是我一个人，那份感受就更加明显。<br>　　    秋天啊，真的来了。<br>　　    不知何时，家中有了一个笔记本——我这辈子可能只习惯用笔记本。在那七楼，在那个没有网络的日子里。黑色的长线接着一个白色长条物。那是网卡，是现在无线网络充斥四周的年代所不需要的东西。我透过名为回忆的泛黄玻璃碎片终于看出，原来我家的后面竟然是一个小垃圾场，再远点是菜市场，再远点杂货铺……看呐，那个中型建筑是什么？哦，叫做安庆石化大酒店，如果时间对的话前面应该还有人工喷泉。现在，仅凭搜索引擎可能无法出现任何有关图片了。但如果我还能找到大舅的结婚录像的话，也许我还能在这个酒店里面上个镜。<br>　　    网络信号很差，但足以能上网。酒店的公用网络就像是邻居家的光一样，而我就用这个网卡去“凿壁偷光”。我这个行为是不高尚的，而且我承认那时候我不过就是想上个4399或者玩个赛尔号什么的。而风呢，太照顾着我，好似我的第二个母亲，安抚着我那焦躁的情绪。多丢人，只不过是网速很慢罢了。哦，在向外望去，英德利集团的灯光亮起来了！<br>　　    信上就这两个内容，至少现在我就读出了两个。我很享受这种感觉，就好像是母亲想我了，像是家乡想起我了。<br>　　秋天啊，真的来了。<br>　　<br>　　    2021年11月9日</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2023/09/22/%E5%87%89%E7%88%BD%E6%98%AF%E7%A7%8B/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-23年9月22日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/09/22/23%E5%B9%B49%E6%9C%8822%E6%97%A5/">9月22日</a>
-    </h1>
-  
-
-        
-        <a href="/2023/09/22/23%E5%B9%B49%E6%9C%8822%E6%97%A5/" class="archive-article-date">
-  	<time datetime="2023-09-22T13:50:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-09-22</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>　　Iphone13pro 256G到手了几天，是的，短短几天就到手了，4900r。除了有点不习惯以外各方面都很好，只是来自太湖的卖家给我之前把手机膜撕掉了，不过两日我手机上就有了好几道划痕，为了及时止损，今晚赶紧跑去人民路给手机贴了膜，还买了个手机壳。<br>　　其实一早就有这样的想法，所以打算今晚不加班早点回来的，未曾想我负责的压机自动上下料四点钟被领导点名了，为了完善进度，我不得已加了一个小时的班（不算在加班时长内）。<br>　　天气转凉，这几天雨也下个不停，熟悉的冷感和莫名的气味又再次感受到了，这让我想起两年前在学校时写过类似的文章，内容感慨时光过得很快，如今再次感慨，不由得叹息。<br>　　回来的路上已是天黑，再加上毛毛细雨打在车窗上，能见度很低。即便将近七点，路上还是有非常多的车（大概是因为周五），塞车近1个小时，终于到家。<br>　　因为八月份的高温假，明天正常上班。<br>　　呼……</p>
+        <p>　　这周工作日比较清闲，无事可做反倒让人在单位里紧张。周四周五也放宽心晚来了一个小时，毕竟可以通过调休补上。周五早上家人没起床，自己便搞点早餐吃了，煎鸡蛋水平还不错，至少火候把握挺好。<br>　　之所以能清闲也得益于胡泽鹏至今没能将拱曲度规的扫码枪弄好，我们这边的工作没有进展也有理由可说，今早在中控室等了一上午也没等到他，倒是手机用到没电了。<br>　　因为元旦节的缘故，本周放三天假，这周末也可以痛痛快快休息一下。今天下午去王阿姨那儿把工作地点看了下，实际上就是一个普通且破旧的居民楼，在里面安排了几个教室而已。但由于领导不在，没办法得知工作岗位是否缺人，也不知道工作内容和薪资待遇怎么样。好在王阿姨说他们明天有聚餐，她可以代我问问所需要的信息。<br>　　柴今天下午回来了，晚饭之后约好来店里唱歌，后去上网，比较尽兴。晚些时候又独自回到店中。店生意不好，路上也冷清，于是和老妈到集贤路走了走，她想约日本朋友中野一起吃个饭，把我带去从而了解他们单位的情况，我觉得这个饭局没有意义，好在中野的翻译朋友（也是店里的员工）没有时间，因此就取消了这个想法。<br>　　明天早点起来，做点有意义的事情。<br>　　<br>　　<img src="/images/12.30.jpg" alt="工作居民楼"></p>
 
       
 
@@ -716,7 +579,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/09/22/23%E5%B9%B49%E6%9C%8822%E6%97%A5/">展开全文 >></a>
+          <a class="article-more-a" href="/2023/12/30/23%E5%B9%B412%E6%9C%8830%E6%97%A5/">展开全文 >></a>
         </p>
       
 
@@ -746,102 +609,27 @@
 
 
   
-    <article id="post-载" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-23年12月28日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2023/09/19/%E8%BD%BD/">载</a>
+      <a class="article-title" href="/2023/12/28/23%E5%B9%B412%E6%9C%8828%E6%97%A5/">23年12月28日</a>
     </h1>
   
 
         
-        <a href="/2023/09/19/%E8%BD%BD/" class="archive-article-date">
-  	<time datetime="2023-09-18T22:38:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-09-19</time>
+        <a href="/2023/12/28/23%E5%B9%B412%E6%9C%8828%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2023-12-28T14:16:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-28</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　回首望去,已然过了那么久。所幸 这条漫漫长路上会有人陪着，并非是某个人永远陪着，而是总会有不同的人陪着，这是每一次不同的邂逅和相遇带来的，我们应心存感激。<br>　　怀揣这份情感需是主动的， 在记忆的长河里它很难给我们带来愉悦， 因为离别……对啊，是离别的情感淹没了它，让我们最终只剩下了叹息。<br>　　我很敬佩那位说出“人生若只如初见”的人，感慨得说心中存有多巨大的遗憾才能感悟出这样的话来。我也正因如此，总会在梦醒时分对那些若隐若现的久违的面庞啜泣。<br>　　“不应止步不前”，我对自己说，离别不应该要回头，往前看吧 ，还有新的面庞要去见见， 也许就在下个雨天，我会碰上一个忘记带伞的人。<br>　　<br>　　2022年11月25日记，《离开前请叫醒我》有感。
-　　</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2023/09/19/%E8%BD%BD/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-23年9月18日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/09/18/23%E5%B9%B49%E6%9C%8818%E6%97%A5/">9月18日</a>
-    </h1>
-  
-
-        
-        <a href="/2023/09/18/23%E5%B9%B49%E6%9C%8818%E6%97%A5/" class="archive-article-date">
-  	<time datetime="2023-09-18T12:35:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-09-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>今天刻意加会班，免得领导说我到点就走。<br>很想买Iphone，在闲鱼看了下，有心仪的，但不确定是否要买。<br>好像有点感冒……</p>
+        <p>原以为周三将会因到与产品经理约定期限而非常忙碌，但情况并非如此。拱曲度规设备因客户的要求要重新更换一个扫码枪，这样就影响到CCD相机设备投入到现场使用。好在同项目经理沟通后，同意拍一个（摆拍）演示视频给客户，算是糊弄过去了。接下来就是等胡泽鹏将扫码枪搞好然后在继续下一步工作，无论如何我暂时没什么事情。<br>今天上午也很闲，因为昨晚睡太晚的缘故，早上也来的迟些。早上在家中吃饭，和奶奶发生了些争执，又同我妈告状，无奈。<br>手上冻疮好了些，至少没有之前那么痛了，也有可能是因为天气暖了些缘故。<br>125t压机到了，要和沃德压机那边沟通发货，等东西到了之后又将有的忙。<br>晚上回来与爷爷装我房间里的日光灯，忙活了一个钟头，比较累人，东西基本上是我装的，因为担心触电的缘故，家里把空气开关关闭了，所以是在断电的情况下进行的，家人用手电给我打灯。<br>北欧神话到了，一看就知道是盗版印刷，不过我不太介意这个，谁叫这本书只卖十多块钱呢？</p>
 
       
 
@@ -865,7 +653,229 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2023/09/18/23%E5%B9%B49%E6%9C%8818%E6%97%A5/">展开全文 >></a>
+          <a class="article-more-a" href="/2023/12/28/23%E5%B9%B412%E6%9C%8828%E6%97%A5/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-23年12月26日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/12/26/23%E5%B9%B412%E6%9C%8826%E6%97%A5/">23年12月26日</a>
+    </h1>
+  
+
+        
+        <a href="/2023/12/26/23%E5%B9%B412%E6%9C%8826%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2023-12-26T13:48:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>　　和昨天一样，无事可做反而觉得很浑。反观伍威近日天天加班至十点多，令人感慨这个岗位的工作量变幻莫测。我是希望躺平的，如果能确定稳定8个小时，至少在精神上不会在这方面有过多内耗。<br>　　闲鱼上买的北欧神话发错位置了（到大学快递点），现在重新寄了一本，今日刚发货不知何时能到手。<br>　　手上的冻疮愈发严重，已经到了遇水就很痛的地步，不由得求助家人对症敷药，不知道会不会有所好转。<br>　　折弯机的零件设备到附近一个叫金星小区的快递点，一直忘记去哪了，门卫不见出厂单不放行，好在唐科长答应帮我去取。<br>　　汽车在地下车库停久后，次日上车能闻到臭味，不知道什么原因，之后有时间想起来的话去找下原因，此外大概是天气原因，方向盘往左转动有异响。<br>　　孙亮妈妈约我周六去了解新工作。<br>　　看看情况。<br>　　今年已经接近尾声，想想过年时趁空闲之际就做了这么个个人博客，本以为电子日记要比纸质方便，写的就会多一点，现在看来也不过区区四十来篇，八月份甚至一篇没写，真是丢人。不过话说回来，Hexo上传至github本身也有困难，在这方面也折腾了很久，也是有一部分原因的。至于博客美化这事一年都没怎么想，因为感觉到这种程度就行了，没必要再过多花里胡哨……不过如果有机会升升级倒也不错。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日记</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/12/26/23%E5%B9%B412%E6%9C%8826%E6%97%A5/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-23年12月25日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/12/25/23%E5%B9%B412%E6%9C%8825%E6%97%A5/">23年12月25日</a>
+    </h1>
+  
+
+        
+        <a href="/2023/12/25/23%E5%B9%B412%E6%9C%8825%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2023-12-25T14:11:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-25</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>　　圣诞节。往大的看，中美的关系并没有因为之前的元首会面得到缓和，外交部以长津湖为题发难，呼吁中国人不应过此节；往小的看，好像今年的圣诞确实没有什么意思了，好像记忆中小时候的各店铺门口的圣诞老人大头贴纸以及马路上传来的圣诞颂歌已经化为云烟。这倒也不令人稀奇，毕竟连国内的所有节日都失去了原来的颜色，好像这些假日的意义仅仅沦为了当代打工人从冰面下出来透口气的窟窿。<br>　　至于我，也许会从内心深处有那么一丝丝的——凄凉。并非是我看到了朋友圈或是好友空间里好友的新一轮炫照，更多的反倒是我对曾经美好回忆的又一次追忆，寒冷的天气和温暖的空调室让人有一种迷幻的感觉，这份感觉有因遥远的思想额外披上了朦胧的面纱——我实在记不清是什么时候了。<br>　　今天要做的事情相对于之前轻松很多，无非是监管厂商的设备安装。李欣上午要开会，让我帮他照看厂商一个多钟头，期间也没干啥事，玩玩手机站累了坐一会儿，蛮舒服的。<br>　　倒是中午吃完饭金茂文打电话给我让我下午给他演示下折弯机的操作，一点钟演示了下，但由于芯棒发生了变形安装管件十分困难所以也就此作罢。不过我还得跟着这台设备的改良。<br>　　大概是因为潜意识觉得圣诞节不因就此无聊的过去的缘故，我找柴华打了一晚上的英雄联盟，开的是FaceTime，赢了一晚上都很开心。<br>　　今天很轻松，但之后不一定了，不要掉以轻心。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日记</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/12/25/23%E5%B9%B412%E6%9C%8825%E6%97%A5/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-23年12月24日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/12/24/23%E5%B9%B412%E6%9C%8824%E6%97%A5/">23年12月24日</a>
+    </h1>
+  
+
+        
+        <a href="/2023/12/24/23%E5%B9%B412%E6%9C%8824%E6%97%A5/" class="archive-article-date">
+  	<time datetime="2023-12-24T13:20:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>　　又是一个周末过去了，感觉非常的快。昨天加班将近一天时间，小头末端检测设备和折弯机都需要我去负责，产品技术部部长联系金总参与产品讨论，金总反手打电话给我让我全权负责，这正应了我之前在朋友圈发的那句话：牛马的意义就是“既要又要”。周日的时候还要担心厂里产品技术的人开会还要我去参加，这样我的周末时光又没有了，还好今天过去没有收到任何电话。<br>　　今天上午跑到人民路，走之前发现电瓶车彻底报废了，只好让爷爷下来检查。我骑上我妈的车去那里，在那搞了份五块钱的麦当劳早餐，然后就在前言后记看书。这次终于看到了拆封后的北欧神话（看起来这本书很抢手，否则之前不会总是找不到），虽然之前已经在闲鱼上买了这本书，但由于地址搞错的缘故东西寄到了大学快递站。人民路上有新店开张，门店请了一个乐队演唱音乐，周围有很多人在围观，我也参与其中，顺便在周边把玩了新到货的一加12。<br>　　今天是个很奇怪的一天，联系过很多人，有发消息有打电话，但都很难得到回复，让我不由得产生一种“楚门的世界通讯设备出现故障”的错觉，比如想让孙亮妈妈今天抽个时间带我去看看新工作，可是她至今都没回复我；叫陈中午一起吃饭，但直到两点钟才给我回复；和王良轩约好下午四点钟去他家取照片存到U盘，可是到点后我打了一个钟头的电话也不理我（后来得知他生病下午睡觉太沉了没听到）。<br>　　在去他家之前我还到了爷爷修车的地方，原以为搞好了，但出门没走多远路又出问题。看来这个车不多花点钱搞不好了，爷爷说这个车报废算了，能开多久开多久。<br>　　取完照片和老妈去渝都吃火锅，讲了未来将要面对哪些困难。火锅菜点的太多了，胃吃的不舒服，回家吐了好多。<br>　　今天即使圣诞节前夕，也是考研结束的一天。逸飞说考题很难算是挂了，他准备工作了，不过在此之前他先好好休息。是的，他可以痛痛快快的过上一个平安夜，至于我明天又要面对更大的挑战。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日记</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/12/24/23%E5%B9%B412%E6%9C%8824%E6%97%A5/">展开全文 >></a>
         </p>
       
 
@@ -897,7 +907,7 @@
   
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/5/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/7/">Next &amp;raquo;</a>
+      <a class="extend prev" rel="prev" href="/page/5/">« Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/20/">20</a><a class="extend next" rel="next" href="/page/7/">Next »</a>
     </nav>
   
 
@@ -939,6 +949,44 @@
 if(!isFinite(o.call(this)))throw RangeError("Invalid time value");var t=this,n=t.getUTCFullYear(),r=t.getUTCMilliseconds(),e=n<0?"-":n>9999?"+":"";return e+("00000"+Math.abs(n)).slice(e?-6:-4)+"-"+u(t.getUTCMonth()+1)+"-"+u(t.getUTCDate())+"T"+u(t.getUTCHours())+":"+u(t.getUTCMinutes())+":"+u(t.getUTCSeconds())+"."+(r>99?r:"0"+u(r))+"Z"}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(50);e(e.P+e.F*r(4)(function(){return null!==new Date(NaN).toJSON()||1!==Date.prototype.toJSON.call({toISOString:function(){return 1}})}),"Date",{toJSON:function(t){var n=i(this),r=o(n);return"number"!=typeof r||isFinite(r)?n.toISOString():null}})},function(t,n,r){var e=r(7)("toPrimitive"),i=Date.prototype;e in i||r(27)(i,e,r(204))},function(t,n,r){var e=Date.prototype,i="Invalid Date",o="toString",u=e[o],c=e.getTime;new Date(NaN)+""!=i&&r(28)(e,o,function(){var t=c.call(this);return t===t?u.call(this):i})},function(t,n,r){var e=r(1);e(e.P,"Function",{bind:r(163)})},function(t,n,r){"use strict";var e=r(6),i=r(32),o=r(7)("hasInstance"),u=Function.prototype;o in u||r(11).f(u,o,{value:function(t){if("function"!=typeof this||!e(t))return!1;if(!e(this.prototype))return t instanceof this;for(;t=i(t);)if(this.prototype===t)return!0;return!1}})},function(t,n,r){var e=r(11).f,i=r(66),o=r(24),u=Function.prototype,c="name",f=Object.isExtensible||function(){return!0};c in u||r(10)&&e(u,c,{configurable:!0,get:function(){try{var t=this,n=(""+t).match(/^\s*function ([^ (]*)/)[1];return o(t,c)||!f(t)||e(t,c,i(5,n)),n}catch(t){return""}}})},function(t,n,r){var e=r(1),i=r(171),o=Math.sqrt,u=Math.acosh;e(e.S+e.F*!(u&&710==Math.floor(u(Number.MAX_VALUE))&&u(1/0)==1/0),"Math",{acosh:function(t){return(t=+t)<1?NaN:t>94906265.62425156?Math.log(t)+Math.LN2:i(t-1+o(t-1)*o(t+1))}})},function(t,n,r){function e(t){return isFinite(t=+t)&&0!=t?t<0?-e(-t):Math.log(t+Math.sqrt(t*t+1)):t}var i=r(1),o=Math.asinh;i(i.S+i.F*!(o&&1/o(0)>0),"Math",{asinh:e})},function(t,n,r){var e=r(1),i=Math.atanh;e(e.S+e.F*!(i&&1/i(-0)<0),"Math",{atanh:function(t){return 0==(t=+t)?t:Math.log((1+t)/(1-t))/2}})},function(t,n,r){var e=r(1),i=r(142);e(e.S,"Math",{cbrt:function(t){return i(t=+t)*Math.pow(Math.abs(t),1/3)}})},function(t,n,r){var e=r(1);e(e.S,"Math",{clz32:function(t){return(t>>>=0)?31-Math.floor(Math.log(t+.5)*Math.LOG2E):32}})},function(t,n,r){var e=r(1),i=Math.exp;e(e.S,"Math",{cosh:function(t){return(i(t=+t)+i(-t))/2}})},function(t,n,r){var e=r(1),i=r(141);e(e.S+e.F*(i!=Math.expm1),"Math",{expm1:i})},function(t,n,r){var e=r(1),i=r(142),o=Math.pow,u=o(2,-52),c=o(2,-23),f=o(2,127)*(2-c),a=o(2,-126),s=function(t){return t+1/u-1/u};e(e.S,"Math",{fround:function(t){var n,r,e=Math.abs(t),o=i(t);return e<a?o*s(e/a/c)*a*c:(n=(1+c/u)*e,r=n-(n-e),r>f||r!=r?o*(1/0):o*r)}})},function(t,n,r){var e=r(1),i=Math.abs;e(e.S,"Math",{hypot:function(t,n){for(var r,e,o=0,u=0,c=arguments.length,f=0;u<c;)r=i(arguments[u++]),f<r?(e=f/r,o=o*e*e+1,f=r):r>0?(e=r/f,o+=e*e):o+=r;return f===1/0?1/0:f*Math.sqrt(o)}})},function(t,n,r){var e=r(1),i=Math.imul;e(e.S+e.F*r(4)(function(){return-5!=i(4294967295,5)||2!=i.length}),"Math",{imul:function(t,n){var r=65535,e=+t,i=+n,o=r&e,u=r&i;return 0|o*u+((r&e>>>16)*u+o*(r&i>>>16)<<16>>>0)}})},function(t,n,r){var e=r(1);e(e.S,"Math",{log10:function(t){return Math.log(t)/Math.LN10}})},function(t,n,r){var e=r(1);e(e.S,"Math",{log1p:r(171)})},function(t,n,r){var e=r(1);e(e.S,"Math",{log2:function(t){return Math.log(t)/Math.LN2}})},function(t,n,r){var e=r(1);e(e.S,"Math",{sign:r(142)})},function(t,n,r){var e=r(1),i=r(141),o=Math.exp;e(e.S+e.F*r(4)(function(){return-2e-17!=!Math.sinh(-2e-17)}),"Math",{sinh:function(t){return Math.abs(t=+t)<1?(i(t)-i(-t))/2:(o(t-1)-o(-t-1))*(Math.E/2)}})},function(t,n,r){var e=r(1),i=r(141),o=Math.exp;e(e.S,"Math",{tanh:function(t){var n=i(t=+t),r=i(-t);return n==1/0?1:r==1/0?-1:(n-r)/(o(t)+o(-t))}})},function(t,n,r){var e=r(1);e(e.S,"Math",{trunc:function(t){return(t>0?Math.floor:Math.ceil)(t)}})},function(t,n,r){"use strict";var e=r(3),i=r(24),o=r(45),u=r(136),c=r(50),f=r(4),a=r(71).f,s=r(31).f,l=r(11).f,h=r(82).trim,v="Number",p=e[v],d=p,y=p.prototype,g=o(r(70)(y))==v,b="trim"in String.prototype,m=function(t){var n=c(t,!1);if("string"==typeof n&&n.length>2){n=b?n.trim():h(n,3);var r,e,i,o=n.charCodeAt(0);if(43===o||45===o){if(88===(r=n.charCodeAt(2))||120===r)return NaN}else if(48===o){switch(n.charCodeAt(1)){case 66:case 98:e=2,i=49;break;case 79:case 111:e=8,i=55;break;default:return+n}for(var u,f=n.slice(2),a=0,s=f.length;a<s;a++)if((u=f.charCodeAt(a))<48||u>i)return NaN;return parseInt(f,e)}}return+n};if(!p(" 0o1")||!p("0b1")||p("+0x1")){p=function(t){var n=arguments.length<1?0:t,r=this;return r instanceof p&&(g?f(function(){y.valueOf.call(r)}):o(r)!=v)?u(new d(m(n)),r,p):m(n)};for(var x,w=r(10)?a(d):"MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,isFinite,isInteger,isNaN,isSafeInteger,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,parseFloat,parseInt,isInteger".split(","),S=0;w.length>S;S++)i(d,x=w[S])&&!i(p,x)&&l(p,x,s(d,x));p.prototype=y,y.constructor=p,r(28)(e,v,p)}},function(t,n,r){var e=r(1);e(e.S,"Number",{EPSILON:Math.pow(2,-52)})},function(t,n,r){var e=r(1),i=r(3).isFinite;e(e.S,"Number",{isFinite:function(t){return"number"==typeof t&&i(t)}})},function(t,n,r){var e=r(1);e(e.S,"Number",{isInteger:r(168)})},function(t,n,r){var e=r(1);e(e.S,"Number",{isNaN:function(t){return t!=t}})},function(t,n,r){var e=r(1),i=r(168),o=Math.abs;e(e.S,"Number",{isSafeInteger:function(t){return i(t)&&o(t)<=9007199254740991}})},function(t,n,r){var e=r(1);e(e.S,"Number",{MAX_SAFE_INTEGER:9007199254740991})},function(t,n,r){var e=r(1);e(e.S,"Number",{MIN_SAFE_INTEGER:-9007199254740991})},function(t,n,r){var e=r(1),i=r(178);e(e.S+e.F*(Number.parseFloat!=i),"Number",{parseFloat:i})},function(t,n,r){var e=r(1),i=r(179);e(e.S+e.F*(Number.parseInt!=i),"Number",{parseInt:i})},function(t,n,r){"use strict";var e=r(1),i=r(67),o=r(159),u=r(149),c=1..toFixed,f=Math.floor,a=[0,0,0,0,0,0],s="Number.toFixed: incorrect invocation!",l="0",h=function(t,n){for(var r=-1,e=n;++r<6;)e+=t*a[r],a[r]=e%1e7,e=f(e/1e7)},v=function(t){for(var n=6,r=0;--n>=0;)r+=a[n],a[n]=f(r/t),r=r%t*1e7},p=function(){for(var t=6,n="";--t>=0;)if(""!==n||0===t||0!==a[t]){var r=String(a[t]);n=""===n?r:n+u.call(l,7-r.length)+r}return n},d=function(t,n,r){return 0===n?r:n%2==1?d(t,n-1,r*t):d(t*t,n/2,r)},y=function(t){for(var n=0,r=t;r>=4096;)n+=12,r/=4096;for(;r>=2;)n+=1,r/=2;return n};e(e.P+e.F*(!!c&&("0.000"!==8e-5.toFixed(3)||"1"!==.9.toFixed(0)||"1.25"!==1.255.toFixed(2)||"1000000000000000128"!==(0xde0b6b3a7640080).toFixed(0))||!r(4)(function(){c.call({})})),"Number",{toFixed:function(t){var n,r,e,c,f=o(this,s),a=i(t),g="",b=l;if(a<0||a>20)throw RangeError(s);if(f!=f)return"NaN";if(f<=-1e21||f>=1e21)return String(f);if(f<0&&(g="-",f=-f),f>1e-21)if(n=y(f*d(2,69,1))-69,r=n<0?f*d(2,-n,1):f/d(2,n,1),r*=4503599627370496,(n=52-n)>0){for(h(0,r),e=a;e>=7;)h(1e7,0),e-=7;for(h(d(10,e,1),0),e=n-1;e>=23;)v(1<<23),e-=23;v(1<<e),h(1,1),v(2),b=p()}else h(0,r),h(1<<-n,0),b=p()+u.call(l,a);return a>0?(c=b.length,b=g+(c<=a?"0."+u.call(l,a-c)+b:b.slice(0,c-a)+"."+b.slice(c-a))):b=g+b,b}})},function(t,n,r){"use strict";var e=r(1),i=r(4),o=r(159),u=1..toPrecision;e(e.P+e.F*(i(function(){return"1"!==u.call(1,void 0)})||!i(function(){u.call({})})),"Number",{toPrecision:function(t){var n=o(this,"Number#toPrecision: incorrect invocation!");return void 0===t?u.call(n):u.call(n,t)}})},function(t,n,r){var e=r(1);e(e.S+e.F,"Object",{assign:r(172)})},function(t,n,r){var e=r(1);e(e.S,"Object",{create:r(70)})},function(t,n,r){var e=r(1);e(e.S+e.F*!r(10),"Object",{defineProperties:r(173)})},function(t,n,r){var e=r(1);e(e.S+e.F*!r(10),"Object",{defineProperty:r(11).f})},function(t,n,r){var e=r(6),i=r(65).onFreeze;r(49)("freeze",function(t){return function(n){return t&&e(n)?t(i(n)):n}})},function(t,n,r){var e=r(30),i=r(31).f;r(49)("getOwnPropertyDescriptor",function(){return function(t,n){return i(e(t),n)}})},function(t,n,r){r(49)("getOwnPropertyNames",function(){return r(174).f})},function(t,n,r){var e=r(17),i=r(32);r(49)("getPrototypeOf",function(){return function(t){return i(e(t))}})},function(t,n,r){var e=r(6);r(49)("isExtensible",function(t){return function(n){return!!e(n)&&(!t||t(n))}})},function(t,n,r){var e=r(6);r(49)("isFrozen",function(t){return function(n){return!e(n)||!!t&&t(n)}})},function(t,n,r){var e=r(6);r(49)("isSealed",function(t){return function(n){return!e(n)||!!t&&t(n)}})},function(t,n,r){var e=r(1);e(e.S,"Object",{is:r(180)})},function(t,n,r){var e=r(17),i=r(72);r(49)("keys",function(){return function(t){return i(e(t))}})},function(t,n,r){var e=r(6),i=r(65).onFreeze;r(49)("preventExtensions",function(t){return function(n){return t&&e(n)?t(i(n)):n}})},function(t,n,r){var e=r(6),i=r(65).onFreeze;r(49)("seal",function(t){return function(n){return t&&e(n)?t(i(n)):n}})},function(t,n,r){var e=r(1);e(e.S,"Object",{setPrototypeOf:r(144).set})},function(t,n,r){"use strict";var e=r(114),i={};i[r(7)("toStringTag")]="z",i+""!="[object z]"&&r(28)(Object.prototype,"toString",function(){return"[object "+e(this)+"]"},!0)},function(t,n,r){var e=r(1),i=r(178);e(e.G+e.F*(parseFloat!=i),{parseFloat:i})},function(t,n,r){var e=r(1),i=r(179);e(e.G+e.F*(parseInt!=i),{parseInt:i})},function(t,n,r){"use strict";var e,i,o,u=r(69),c=r(3),f=r(53),a=r(114),s=r(1),l=r(6),h=r(26),v=r(68),p=r(79),d=r(146),y=r(151).set,g=r(143)(),b="Promise",m=c.TypeError,x=c.process,w=c[b],x=c.process,S="process"==a(x),_=function(){},O=!!function(){try{var t=w.resolve(1),n=(t.constructor={})[r(7)("species")]=function(t){t(_,_)};return(S||"function"==typeof PromiseRejectionEvent)&&t.then(_)instanceof n}catch(t){}}(),E=function(t,n){return t===n||t===w&&n===o},P=function(t){var n;return!(!l(t)||"function"!=typeof(n=t.then))&&n},j=function(t){return E(w,t)?new F(t):new i(t)},F=i=function(t){var n,r;this.promise=new t(function(t,e){if(void 0!==n||void 0!==r)throw m("Bad Promise constructor");n=t,r=e}),this.resolve=h(n),this.reject=h(r)},M=function(t){try{t()}catch(t){return{error:t}}},A=function(t,n){if(!t._n){t._n=!0;var r=t._c;g(function(){for(var e=t._v,i=1==t._s,o=0;r.length>o;)!function(n){var r,o,u=i?n.ok:n.fail,c=n.resolve,f=n.reject,a=n.domain;try{u?(i||(2==t._h&&I(t),t._h=1),!0===u?r=e:(a&&a.enter(),r=u(e),a&&a.exit()),r===n.promise?f(m("Promise-chain cycle")):(o=P(r))?o.call(r,c,f):c(r)):f(e)}catch(t){f(t)}}(r[o++]);t._c=[],t._n=!1,n&&!t._h&&N(t)})}},N=function(t){y.call(c,function(){var n,r,e,i=t._v;if(T(t)&&(n=M(function(){S?x.emit("unhandledRejection",i,t):(r=c.onunhandledrejection)?r({promise:t,reason:i}):(e=c.console)&&e.error&&e.error("Unhandled promise rejection",i)}),t._h=S||T(t)?2:1),t._a=void 0,n)throw n.error})},T=function(t){if(1==t._h)return!1;for(var n,r=t._a||t._c,e=0;r.length>e;)if(n=r[e++],n.fail||!T(n.promise))return!1;return!0},I=function(t){y.call(c,function(){var n;S?x.emit("rejectionHandled",t):(n=c.onrejectionhandled)&&n({promise:t,reason:t._v})})},k=function(t){var n=this;n._d||(n._d=!0,n=n._w||n,n._v=t,n._s=2,n._a||(n._a=n._c.slice()),A(n,!0))},L=function(t){var n,r=this;if(!r._d){r._d=!0,r=r._w||r;try{if(r===t)throw m("Promise can't be resolved itself");(n=P(t))?g(function(){var e={_w:r,_d:!1};try{n.call(t,f(L,e,1),f(k,e,1))}catch(t){k.call(e,t)}}):(r._v=t,r._s=1,A(r,!1))}catch(t){k.call({_w:r,_d:!1},t)}}};O||(w=function(t){v(this,w,b,"_h"),h(t),e.call(this);try{t(f(L,this,1),f(k,this,1))}catch(t){k.call(this,t)}},e=function(t){this._c=[],this._a=void 0,this._s=0,this._d=!1,this._v=void 0,this._h=0,this._n=!1},e.prototype=r(73)(w.prototype,{then:function(t,n){var r=j(d(this,w));return r.ok="function"!=typeof t||t,r.fail="function"==typeof n&&n,r.domain=S?x.domain:void 0,this._c.push(r),this._a&&this._a.push(r),this._s&&A(this,!1),r.promise},catch:function(t){return this.then(void 0,t)}}),F=function(){var t=new e;this.promise=t,this.resolve=f(L,t,1),this.reject=f(k,t,1)}),s(s.G+s.W+s.F*!O,{Promise:w}),r(81)(w,b),r(74)(b),o=r(52)[b],s(s.S+s.F*!O,b,{reject:function(t){var n=j(this);return(0,n.reject)(t),n.promise}}),s(s.S+s.F*(u||!O),b,{resolve:function(t){if(t instanceof w&&E(t.constructor,this))return t;var n=j(this);return(0,n.resolve)(t),n.promise}}),s(s.S+s.F*!(O&&r(123)(function(t){w.all(t).catch(_)})),b,{all:function(t){var n=this,r=j(n),e=r.resolve,i=r.reject,o=M(function(){var r=[],o=0,u=1;p(t,!1,function(t){var c=o++,f=!1;r.push(void 0),u++,n.resolve(t).then(function(t){f||(f=!0,r[c]=t,--u||e(r))},i)}),--u||e(r)});return o&&i(o.error),r.promise},race:function(t){var n=this,r=j(n),e=r.reject,i=M(function(){p(t,!1,function(t){n.resolve(t).then(r.resolve,e)})});return i&&e(i.error),r.promise}})},function(t,n,r){var e=r(1),i=r(26),o=r(2),u=(r(3).Reflect||{}).apply,c=Function.apply;e(e.S+e.F*!r(4)(function(){u(function(){})}),"Reflect",{apply:function(t,n,r){var e=i(t),f=o(r);return u?u(e,n,f):c.call(e,n,f)}})},function(t,n,r){var e=r(1),i=r(70),o=r(26),u=r(2),c=r(6),f=r(4),a=r(163),s=(r(3).Reflect||{}).construct,l=f(function(){function t(){}return!(s(function(){},[],t)instanceof t)}),h=!f(function(){s(function(){})});e(e.S+e.F*(l||h),"Reflect",{construct:function(t,n){o(t),u(n);var r=arguments.length<3?t:o(arguments[2]);if(h&&!l)return s(t,n,r);if(t==r){switch(n.length){case 0:return new t;case 1:return new t(n[0]);case 2:return new t(n[0],n[1]);case 3:return new t(n[0],n[1],n[2]);case 4:return new t(n[0],n[1],n[2],n[3])}var e=[null];return e.push.apply(e,n),new(a.apply(t,e))}var f=r.prototype,v=i(c(f)?f:Object.prototype),p=Function.apply.call(t,v,n);return c(p)?p:v}})},function(t,n,r){var e=r(11),i=r(1),o=r(2),u=r(50);i(i.S+i.F*r(4)(function(){Reflect.defineProperty(e.f({},1,{value:1}),1,{value:2})}),"Reflect",{defineProperty:function(t,n,r){o(t),n=u(n,!0),o(r);try{return e.f(t,n,r),!0}catch(t){return!1}}})},function(t,n,r){var e=r(1),i=r(31).f,o=r(2);e(e.S,"Reflect",{deleteProperty:function(t,n){var r=i(o(t),n);return!(r&&!r.configurable)&&delete t[n]}})},function(t,n,r){"use strict";var e=r(1),i=r(2),o=function(t){this._t=i(t),this._i=0;var n,r=this._k=[];for(n in t)r.push(n)};r(139)(o,"Object",function(){var t,n=this,r=n._k;do{if(n._i>=r.length)return{value:void 0,done:!0}}while(!((t=r[n._i++])in n._t));return{value:t,done:!1}}),e(e.S,"Reflect",{enumerate:function(t){return new o(t)}})},function(t,n,r){var e=r(31),i=r(1),o=r(2);i(i.S,"Reflect",{getOwnPropertyDescriptor:function(t,n){return e.f(o(t),n)}})},function(t,n,r){var e=r(1),i=r(32),o=r(2);e(e.S,"Reflect",{getPrototypeOf:function(t){return i(o(t))}})},function(t,n,r){function e(t,n){var r,c,s=arguments.length<3?t:arguments[2];return a(t)===s?t[n]:(r=i.f(t,n))?u(r,"value")?r.value:void 0!==r.get?r.get.call(s):void 0:f(c=o(t))?e(c,n,s):void 0}var i=r(31),o=r(32),u=r(24),c=r(1),f=r(6),a=r(2);c(c.S,"Reflect",{get:e})},function(t,n,r){var e=r(1);e(e.S,"Reflect",{has:function(t,n){return n in t}})},function(t,n,r){var e=r(1),i=r(2),o=Object.isExtensible;e(e.S,"Reflect",{isExtensible:function(t){return i(t),!o||o(t)}})},function(t,n,r){var e=r(1);e(e.S,"Reflect",{ownKeys:r(177)})},function(t,n,r){var e=r(1),i=r(2),o=Object.preventExtensions;e(e.S,"Reflect",{preventExtensions:function(t){i(t);try{return o&&o(t),!0}catch(t){return!1}}})},function(t,n,r){var e=r(1),i=r(144);i&&e(e.S,"Reflect",{setPrototypeOf:function(t,n){i.check(t,n);try{return i.set(t,n),!0}catch(t){return!1}}})},function(t,n,r){function e(t,n,r){var f,h,v=arguments.length<4?t:arguments[3],p=o.f(s(t),n);if(!p){if(l(h=u(t)))return e(h,n,r,v);p=a(0)}return c(p,"value")?!(!1===p.writable||!l(v)||(f=o.f(v,n)||a(0),f.value=r,i.f(v,n,f),0)):void 0!==p.set&&(p.set.call(v,r),!0)}var i=r(11),o=r(31),u=r(32),c=r(24),f=r(1),a=r(66),s=r(2),l=r(6);f(f.S,"Reflect",{set:e})},function(t,n,r){var e=r(3),i=r(136),o=r(11).f,u=r(71).f,c=r(122),f=r(120),a=e.RegExp,s=a,l=a.prototype,h=/a/g,v=/a/g,p=new a(h)!==h;if(r(10)&&(!p||r(4)(function(){return v[r(7)("match")]=!1,a(h)!=h||a(v)==v||"/a/i"!=a(h,"i")}))){a=function(t,n){var r=this instanceof a,e=c(t),o=void 0===n;return!r&&e&&t.constructor===a&&o?t:i(p?new s(e&&!o?t.source:t,n):s((e=t instanceof a)?t.source:t,e&&o?f.call(t):n),r?this:l,a)};for(var d=u(s),y=0;d.length>y;)!function(t){t in a||o(a,t,{configurable:!0,get:function(){return s[t]},set:function(n){s[t]=n}})}(d[y++]);l.constructor=a,a.prototype=l,r(28)(e,"RegExp",a)}r(74)("RegExp")},function(t,n,r){r(119)("match",1,function(t,n,r){return[function(r){"use strict";var e=t(this),i=void 0==r?void 0:r[n];return void 0!==i?i.call(r,e):new RegExp(r)[n](String(e))},r]})},function(t,n,r){r(119)("replace",2,function(t,n,r){return[function(e,i){"use strict";var o=t(this),u=void 0==e?void 0:e[n];return void 0!==u?u.call(e,o,i):r.call(String(o),e,i)},r]})},function(t,n,r){r(119)("search",1,function(t,n,r){return[function(r){"use strict";var e=t(this),i=void 0==r?void 0:r[n];return void 0!==i?i.call(r,e):new RegExp(r)[n](String(e))},r]})},function(t,n,r){r(119)("split",2,function(t,n,e){"use strict";var i=r(122),o=e,u=[].push,c="split",f="length",a="lastIndex";if("c"=="abbc"[c](/(b)*/)[1]||4!="test"[c](/(?:)/,-1)[f]||2!="ab"[c](/(?:ab)*/)[f]||4!="."[c](/(.?)(.?)/)[f]||"."[c](/()()/)[f]>1||""[c](/.?/)[f]){var s=void 0===/()??/.exec("")[1];e=function(t,n){var r=String(this);if(void 0===t&&0===n)return[];if(!i(t))return o.call(r,t,n);var e,c,l,h,v,p=[],d=(t.ignoreCase?"i":"")+(t.multiline?"m":"")+(t.unicode?"u":"")+(t.sticky?"y":""),y=0,g=void 0===n?4294967295:n>>>0,b=new RegExp(t.source,d+"g");for(s||(e=new RegExp("^"+b.source+"$(?!\\s)",d));(c=b.exec(r))&&!((l=c.index+c[0][f])>y&&(p.push(r.slice(y,c.index)),!s&&c[f]>1&&c[0].replace(e,function(){for(v=1;v<arguments[f]-2;v++)void 0===arguments[v]&&(c[v]=void 0)}),c[f]>1&&c.index<r[f]&&u.apply(p,c.slice(1)),h=c[0][f],y=l,p[f]>=g));)b[a]===c.index&&b[a]++;return y===r[f]?!h&&b.test("")||p.push(""):p.push(r.slice(y)),p[f]>g?p.slice(0,g):p}}else"0"[c](void 0,0)[f]&&(e=function(t,n){return void 0===t&&0===n?[]:o.call(this,t,n)});return[function(r,i){var o=t(this),u=void 0==r?void 0:r[n];return void 0!==u?u.call(r,o,i):e.call(String(o),r,i)},e]})},function(t,n,r){"use strict";r(184);var e=r(2),i=r(120),o=r(10),u="toString",c=/./[u],f=function(t){r(28)(RegExp.prototype,u,t,!0)};r(4)(function(){return"/a/b"!=c.call({source:"a",flags:"b"})})?f(function(){var t=e(this);return"/".concat(t.source,"/","flags"in t?t.flags:!o&&t instanceof RegExp?i.call(t):void 0)}):c.name!=u&&f(function(){return c.call(this)})},function(t,n,r){"use strict";r(29)("anchor",function(t){return function(n){return t(this,"a","name",n)}})},function(t,n,r){"use strict";r(29)("big",function(t){return function(){return t(this,"big","","")}})},function(t,n,r){"use strict";r(29)("blink",function(t){return function(){return t(this,"blink","","")}})},function(t,n,r){"use strict";r(29)("bold",function(t){return function(){return t(this,"b","","")}})},function(t,n,r){"use strict";var e=r(1),i=r(147)(!1);e(e.P,"String",{codePointAt:function(t){return i(this,t)}})},function(t,n,r){"use strict";var e=r(1),i=r(16),o=r(148),u="endsWith",c=""[u];e(e.P+e.F*r(134)(u),"String",{endsWith:function(t){var n=o(this,t,u),r=arguments.length>1?arguments[1]:void 0,e=i(n.length),f=void 0===r?e:Math.min(i(r),e),a=String(t);return c?c.call(n,a,f):n.slice(f-a.length,f)===a}})},function(t,n,r){"use strict";r(29)("fixed",function(t){return function(){return t(this,"tt","","")}})},function(t,n,r){"use strict";r(29)("fontcolor",function(t){return function(n){return t(this,"font","color",n)}})},function(t,n,r){"use strict";r(29)("fontsize",function(t){return function(n){return t(this,"font","size",n)}})},function(t,n,r){var e=r(1),i=r(75),o=String.fromCharCode,u=String.fromCodePoint;e(e.S+e.F*(!!u&&1!=u.length),"String",{fromCodePoint:function(t){for(var n,r=[],e=arguments.length,u=0;e>u;){if(n=+arguments[u++],i(n,1114111)!==n)throw RangeError(n+" is not a valid code point");r.push(n<65536?o(n):o(55296+((n-=65536)>>10),n%1024+56320))}return r.join("")}})},function(t,n,r){"use strict";var e=r(1),i=r(148),o="includes";e(e.P+e.F*r(134)(o),"String",{includes:function(t){return!!~i(this,t,o).indexOf(t,arguments.length>1?arguments[1]:void 0)}})},function(t,n,r){"use strict";r(29)("italics",function(t){return function(){return t(this,"i","","")}})},function(t,n,r){"use strict";var e=r(147)(!0);r(140)(String,"String",function(t){this._t=String(t),this._i=0},function(){var t,n=this._t,r=this._i;return r>=n.length?{value:void 0,done:!0}:(t=e(n,r),this._i+=t.length,{value:t,done:!1})})},function(t,n,r){"use strict";r(29)("link",function(t){return function(n){return t(this,"a","href",n)}})},function(t,n,r){var e=r(1),i=r(30),o=r(16);e(e.S,"String",{raw:function(t){for(var n=i(t.raw),r=o(n.length),e=arguments.length,u=[],c=0;r>c;)u.push(String(n[c++])),c<e&&u.push(String(arguments[c]));return u.join("")}})},function(t,n,r){var e=r(1);e(e.P,"String",{repeat:r(149)})},function(t,n,r){"use strict";r(29)("small",function(t){return function(){return t(this,"small","","")}})},function(t,n,r){"use strict";var e=r(1),i=r(16),o=r(148),u="startsWith",c=""[u];e(e.P+e.F*r(134)(u),"String",{startsWith:function(t){var n=o(this,t,u),r=i(Math.min(arguments.length>1?arguments[1]:void 0,n.length)),e=String(t);return c?c.call(n,e,r):n.slice(r,r+e.length)===e}})},function(t,n,r){"use strict";r(29)("strike",function(t){return function(){return t(this,"strike","","")}})},function(t,n,r){"use strict";r(29)("sub",function(t){return function(){return t(this,"sub","","")}})},function(t,n,r){"use strict";r(29)("sup",function(t){return function(){return t(this,"sup","","")}})},function(t,n,r){"use strict";r(82)("trim",function(t){return function(){return t(this,3)}})},function(t,n,r){"use strict";var e=r(3),i=r(24),o=r(10),u=r(1),c=r(28),f=r(65).KEY,a=r(4),s=r(126),l=r(81),h=r(76),v=r(7),p=r(182),d=r(153),y=r(206),g=r(205),b=r(138),m=r(2),x=r(30),w=r(50),S=r(66),_=r(70),O=r(174),E=r(31),P=r(11),j=r(72),F=E.f,M=P.f,A=O.f,N=e.Symbol,T=e.JSON,I=T&&T.stringify,k="prototype",L=v("_hidden"),R=v("toPrimitive"),C={}.propertyIsEnumerable,D=s("symbol-registry"),U=s("symbols"),W=s("op-symbols"),G=Object[k],B="function"==typeof N,V=e.QObject,z=!V||!V[k]||!V[k].findChild,q=o&&a(function(){return 7!=_(M({},"a",{get:function(){return M(this,"a",{value:7}).a}})).a})?function(t,n,r){var e=F(G,n);e&&delete G[n],M(t,n,r),e&&t!==G&&M(G,n,e)}:M,K=function(t){var n=U[t]=_(N[k]);return n._k=t,n},J=B&&"symbol"==typeof N.iterator?function(t){return"symbol"==typeof t}:function(t){return t instanceof N},Y=function(t,n,r){return t===G&&Y(W,n,r),m(t),n=w(n,!0),m(r),i(U,n)?(r.enumerable?(i(t,L)&&t[L][n]&&(t[L][n]=!1),r=_(r,{enumerable:S(0,!1)})):(i(t,L)||M(t,L,S(1,{})),t[L][n]=!0),q(t,n,r)):M(t,n,r)},H=function(t,n){m(t);for(var r,e=g(n=x(n)),i=0,o=e.length;o>i;)Y(t,r=e[i++],n[r]);return t},$=function(t,n){return void 0===n?_(t):H(_(t),n)},X=function(t){var n=C.call(this,t=w(t,!0));return!(this===G&&i(U,t)&&!i(W,t))&&(!(n||!i(this,t)||!i(U,t)||i(this,L)&&this[L][t])||n)},Q=function(t,n){if(t=x(t),n=w(n,!0),t!==G||!i(U,n)||i(W,n)){var r=F(t,n);return!r||!i(U,n)||i(t,L)&&t[L][n]||(r.enumerable=!0),r}},Z=function(t){for(var n,r=A(x(t)),e=[],o=0;r.length>o;)i(U,n=r[o++])||n==L||n==f||e.push(n);return e},tt=function(t){for(var n,r=t===G,e=A(r?W:x(t)),o=[],u=0;e.length>u;)!i(U,n=e[u++])||r&&!i(G,n)||o.push(U[n]);return o};B||(N=function(){if(this instanceof N)throw TypeError("Symbol is not a constructor!");var t=h(arguments.length>0?arguments[0]:void 0),n=function(r){this===G&&n.call(W,r),i(this,L)&&i(this[L],t)&&(this[L][t]=!1),q(this,t,S(1,r))};return o&&z&&q(G,t,{configurable:!0,set:n}),K(t)},c(N[k],"toString",function(){return this._k}),E.f=Q,P.f=Y,r(71).f=O.f=Z,r(116).f=X,r(125).f=tt,o&&!r(69)&&c(G,"propertyIsEnumerable",X,!0),p.f=function(t){return K(v(t))}),u(u.G+u.W+u.F*!B,{Symbol:N});for(var nt="hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables".split(","),rt=0;nt.length>rt;)v(nt[rt++]);for(var nt=j(v.store),rt=0;nt.length>rt;)d(nt[rt++]);u(u.S+u.F*!B,"Symbol",{for:function(t){return i(D,t+="")?D[t]:D[t]=N(t)},keyFor:function(t){if(J(t))return y(D,t);throw TypeError(t+" is not a symbol!")},useSetter:function(){z=!0},useSimple:function(){z=!1}}),u(u.S+u.F*!B,"Object",{create:$,defineProperty:Y,defineProperties:H,getOwnPropertyDescriptor:Q,getOwnPropertyNames:Z,getOwnPropertySymbols:tt}),T&&u(u.S+u.F*(!B||a(function(){var t=N();return"[null]"!=I([t])||"{}"!=I({a:t})||"{}"!=I(Object(t))})),"JSON",{stringify:function(t){if(void 0!==t&&!J(t)){for(var n,r,e=[t],i=1;arguments.length>i;)e.push(arguments[i++]);return n=e[1],"function"==typeof n&&(r=n),!r&&b(n)||(n=function(t,n){if(r&&(n=r.call(this,t,n)),!J(n))return n}),e[1]=n,I.apply(T,e)}}}),N[k][R]||r(27)(N[k],R,N[k].valueOf),l(N,"Symbol"),l(Math,"Math",!0),l(e.JSON,"JSON",!0)},function(t,n,r){"use strict";var e=r(1),i=r(127),o=r(152),u=r(2),c=r(75),f=r(16),a=r(6),s=r(3).ArrayBuffer,l=r(146),h=o.ArrayBuffer,v=o.DataView,p=i.ABV&&s.isView,d=h.prototype.slice,y=i.VIEW,g="ArrayBuffer";e(e.G+e.W+e.F*(s!==h),{ArrayBuffer:h}),e(e.S+e.F*!i.CONSTR,g,{isView:function(t){return p&&p(t)||a(t)&&y in t}}),e(e.P+e.U+e.F*r(4)(function(){return!new h(2).slice(1,void 0).byteLength}),g,{slice:function(t,n){if(void 0!==d&&void 0===n)return d.call(u(this),t);for(var r=u(this).byteLength,e=c(t,r),i=c(void 0===n?r:n,r),o=new(l(this,h))(f(i-e)),a=new v(this),s=new v(o),p=0;e<i;)s.setUint8(p++,a.getUint8(e++));return o}}),r(74)(g)},function(t,n,r){var e=r(1);e(e.G+e.W+e.F*!r(127).ABV,{DataView:r(152).DataView})},function(t,n,r){r(55)("Float32",4,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Float64",8,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Int16",2,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Int32",4,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Int8",1,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint16",2,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint32",4,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint8",1,function(t){return function(n,r,e){return t(this,n,r,e)}})},function(t,n,r){r(55)("Uint8",1,function(t){return function(n,r,e){return t(this,n,r,e)}},!0)},function(t,n,r){"use strict";var e=r(166);r(118)("WeakSet",function(t){return function(){return t(this,arguments.length>0?arguments[0]:void 0)}},{add:function(t){return e.def(this,t,!0)}},e,!1,!0)},function(t,n,r){"use strict";var e=r(1),i=r(117)(!0);e(e.P,"Array",{includes:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0)}}),r(78)("includes")},function(t,n,r){var e=r(1),i=r(143)(),o=r(3).process,u="process"==r(45)(o);e(e.G,{asap:function(t){var n=u&&o.domain;i(n?n.bind(t):t)}})},function(t,n,r){var e=r(1),i=r(45);e(e.S,"Error",{isError:function(t){return"Error"===i(t)}})},function(t,n,r){var e=r(1);e(e.P+e.R,"Map",{toJSON:r(165)("Map")})},function(t,n,r){var e=r(1);e(e.S,"Math",{iaddh:function(t,n,r,e){var i=t>>>0,o=n>>>0,u=r>>>0;return o+(e>>>0)+((i&u|(i|u)&~(i+u>>>0))>>>31)|0}})},function(t,n,r){var e=r(1);e(e.S,"Math",{imulh:function(t,n){var r=65535,e=+t,i=+n,o=e&r,u=i&r,c=e>>16,f=i>>16,a=(c*u>>>0)+(o*u>>>16);return c*f+(a>>16)+((o*f>>>0)+(a&r)>>16)}})},function(t,n,r){var e=r(1);e(e.S,"Math",{isubh:function(t,n,r,e){var i=t>>>0,o=n>>>0,u=r>>>0;return o-(e>>>0)-((~i&u|~(i^u)&i-u>>>0)>>>31)|0}})},function(t,n,r){var e=r(1);e(e.S,"Math",{umulh:function(t,n){var r=65535,e=+t,i=+n,o=e&r,u=i&r,c=e>>>16,f=i>>>16,a=(c*u>>>0)+(o*u>>>16);return c*f+(a>>>16)+((o*f>>>0)+(a&r)>>>16)}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(26),u=r(11);r(10)&&e(e.P+r(124),"Object",{__defineGetter__:function(t,n){u.f(i(this),t,{get:o(n),enumerable:!0,configurable:!0})}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(26),u=r(11);r(10)&&e(e.P+r(124),"Object",{__defineSetter__:function(t,n){u.f(i(this),t,{set:o(n),enumerable:!0,configurable:!0})}})},function(t,n,r){var e=r(1),i=r(176)(!0);e(e.S,"Object",{entries:function(t){return i(t)}})},function(t,n,r){var e=r(1),i=r(177),o=r(30),u=r(31),c=r(131);e(e.S,"Object",{getOwnPropertyDescriptors:function(t){for(var n,r=o(t),e=u.f,f=i(r),a={},s=0;f.length>s;)c(a,n=f[s++],e(r,n));return a}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(50),u=r(32),c=r(31).f;r(10)&&e(e.P+r(124),"Object",{__lookupGetter__:function(t){var n,r=i(this),e=o(t,!0);do{if(n=c(r,e))return n.get}while(r=u(r))}})},function(t,n,r){"use strict";var e=r(1),i=r(17),o=r(50),u=r(32),c=r(31).f;r(10)&&e(e.P+r(124),"Object",{__lookupSetter__:function(t){var n,r=i(this),e=o(t,!0);do{if(n=c(r,e))return n.set}while(r=u(r))}})},function(t,n,r){var e=r(1),i=r(176)(!1);e(e.S,"Object",{values:function(t){return i(t)}})},function(t,n,r){"use strict";var e=r(1),i=r(3),o=r(52),u=r(143)(),c=r(7)("observable"),f=r(26),a=r(2),s=r(68),l=r(73),h=r(27),v=r(79),p=v.RETURN,d=function(t){return null==t?void 0:f(t)},y=function(t){var n=t._c;n&&(t._c=void 0,n())},g=function(t){return void 0===t._o},b=function(t){g(t)||(t._o=void 0,y(t))},m=function(t,n){a(t),this._c=void 0,this._o=t,t=new x(this);try{var r=n(t),e=r;null!=r&&("function"==typeof r.unsubscribe?r=function(){e.unsubscribe()}:f(r),this._c=r)}catch(n){return void t.error(n)}g(this)&&y(this)};m.prototype=l({},{unsubscribe:function(){b(this)}});var x=function(t){this._s=t};x.prototype=l({},{next:function(t){var n=this._s;if(!g(n)){var r=n._o;try{var e=d(r.next);if(e)return e.call(r,t)}catch(t){try{b(n)}finally{throw t}}}},error:function(t){var n=this._s;if(g(n))throw t;var r=n._o;n._o=void 0;try{var e=d(r.error);if(!e)throw t;t=e.call(r,t)}catch(t){try{y(n)}finally{throw t}}return y(n),t},complete:function(t){var n=this._s;if(!g(n)){var r=n._o;n._o=void 0;try{var e=d(r.complete);t=e?e.call(r,t):void 0}catch(t){try{y(n)}finally{throw t}}return y(n),t}}});var w=function(t){s(this,w,"Observable","_f")._f=f(t)};l(w.prototype,{subscribe:function(t){return new m(t,this._f)},forEach:function(t){var n=this;return new(o.Promise||i.Promise)(function(r,e){f(t);var i=n.subscribe({next:function(n){try{return t(n)}catch(t){e(t),i.unsubscribe()}},error:e,complete:r})})}}),l(w,{from:function(t){var n="function"==typeof this?this:w,r=d(a(t)[c]);if(r){var e=a(r.call(t));return e.constructor===n?e:new n(function(t){return e.subscribe(t)})}return new n(function(n){var r=!1;return u(function(){if(!r){try{if(v(t,!1,function(t){if(n.next(t),r)return p})===p)return}catch(t){if(r)throw t;return void n.error(t)}n.complete()}}),function(){r=!0}})},of:function(){for(var t=0,n=arguments.length,r=Array(n);t<n;)r[t]=arguments[t++];return new("function"==typeof this?this:w)(function(t){var n=!1;return u(function(){if(!n){for(var e=0;e<r.length;++e)if(t.next(r[e]),n)return;t.complete()}}),function(){n=!0}})}}),h(w.prototype,c,function(){return this}),e(e.G,{Observable:w}),r(74)("Observable")},function(t,n,r){var e=r(54),i=r(2),o=e.key,u=e.set;e.exp({defineMetadata:function(t,n,r,e){u(t,n,i(r),o(e))}})},function(t,n,r){var e=r(54),i=r(2),o=e.key,u=e.map,c=e.store;e.exp({deleteMetadata:function(t,n){var r=arguments.length<3?void 0:o(arguments[2]),e=u(i(n),r,!1);if(void 0===e||!e.delete(t))return!1;if(e.size)return!0;var f=c.get(n);return f.delete(r),!!f.size||c.delete(n)}})},function(t,n,r){var e=r(185),i=r(161),o=r(54),u=r(2),c=r(32),f=o.keys,a=o.key,s=function(t,n){var r=f(t,n),o=c(t);if(null===o)return r;var u=s(o,n);return u.length?r.length?i(new e(r.concat(u))):u:r};o.exp({getMetadataKeys:function(t){return s(u(t),arguments.length<2?void 0:a(arguments[1]))}})},function(t,n,r){var e=r(54),i=r(2),o=r(32),u=e.has,c=e.get,f=e.key,a=function(t,n,r){if(u(t,n,r))return c(t,n,r);var e=o(n);return null!==e?a(t,e,r):void 0};e.exp({getMetadata:function(t,n){return a(t,i(n),arguments.length<3?void 0:f(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=e.keys,u=e.key;e.exp({getOwnMetadataKeys:function(t){
 return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var e=r(54),i=r(2),o=e.get,u=e.key;e.exp({getOwnMetadata:function(t,n){return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=r(32),u=e.has,c=e.key,f=function(t,n,r){if(u(t,n,r))return!0;var e=o(n);return null!==e&&f(t,e,r)};e.exp({hasMetadata:function(t,n){return f(t,i(n),arguments.length<3?void 0:c(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=e.has,u=e.key;e.exp({hasOwnMetadata:function(t,n){return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){var e=r(54),i=r(2),o=r(26),u=e.key,c=e.set;e.exp({metadata:function(t,n){return function(r,e){c(t,n,(void 0!==e?i:o)(r),u(e))}}})},function(t,n,r){var e=r(1);e(e.P+e.R,"Set",{toJSON:r(165)("Set")})},function(t,n,r){"use strict";var e=r(1),i=r(147)(!0);e(e.P,"String",{at:function(t){return i(this,t)}})},function(t,n,r){"use strict";var e=r(1),i=r(46),o=r(16),u=r(122),c=r(120),f=RegExp.prototype,a=function(t,n){this._r=t,this._s=n};r(139)(a,"RegExp String",function(){var t=this._r.exec(this._s);return{value:t,done:null===t}}),e(e.P,"String",{matchAll:function(t){if(i(this),!u(t))throw TypeError(t+" is not a regexp!");var n=String(this),r="flags"in f?String(t.flags):c.call(t),e=new RegExp(t.source,~r.indexOf("g")?r:"g"+r);return e.lastIndex=o(t.lastIndex),new a(e,n)}})},function(t,n,r){"use strict";var e=r(1),i=r(181);e(e.P,"String",{padEnd:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0,!1)}})},function(t,n,r){"use strict";var e=r(1),i=r(181);e(e.P,"String",{padStart:function(t){return i(this,t,arguments.length>1?arguments[1]:void 0,!0)}})},function(t,n,r){"use strict";r(82)("trimLeft",function(t){return function(){return t(this,1)}},"trimStart")},function(t,n,r){"use strict";r(82)("trimRight",function(t){return function(){return t(this,2)}},"trimEnd")},function(t,n,r){r(153)("asyncIterator")},function(t,n,r){r(153)("observable")},function(t,n,r){var e=r(1);e(e.S,"System",{global:r(3)})},function(t,n,r){for(var e=r(155),i=r(28),o=r(3),u=r(27),c=r(80),f=r(7),a=f("iterator"),s=f("toStringTag"),l=c.Array,h=["NodeList","DOMTokenList","MediaList","StyleSheetList","CSSRuleList"],v=0;v<5;v++){var p,d=h[v],y=o[d],g=y&&y.prototype;if(g){g[a]||u(g,a,l),g[s]||u(g,s,d),c[d]=l;for(p in e)g[p]||i(g,p,e[p],!0)}}},function(t,n,r){var e=r(1),i=r(151);e(e.G+e.B,{setImmediate:i.set,clearImmediate:i.clear})},function(t,n,r){var e=r(3),i=r(1),o=r(121),u=r(207),c=e.navigator,f=!!c&&/MSIE .\./.test(c.userAgent),a=function(t){return f?function(n,r){return t(o(u,[].slice.call(arguments,2),"function"==typeof n?n:Function(n)),r)}:t};i(i.G+i.B+i.F*f,{setTimeout:a(e.setTimeout),setInterval:a(e.setInterval)})},function(t,n,r){r(330),r(269),r(271),r(270),r(273),r(275),r(280),r(274),r(272),r(282),r(281),r(277),r(278),r(276),r(268),r(279),r(283),r(284),r(236),r(238),r(237),r(286),r(285),r(256),r(266),r(267),r(257),r(258),r(259),r(260),r(261),r(262),r(263),r(264),r(265),r(239),r(240),r(241),r(242),r(243),r(244),r(245),r(246),r(247),r(248),r(249),r(250),r(251),r(252),r(253),r(254),r(255),r(317),r(322),r(329),r(320),r(312),r(313),r(318),r(323),r(325),r(308),r(309),r(310),r(311),r(314),r(315),r(316),r(319),r(321),r(324),r(326),r(327),r(328),r(231),r(233),r(232),r(235),r(234),r(220),r(218),r(224),r(221),r(227),r(229),r(217),r(223),r(214),r(228),r(212),r(226),r(225),r(219),r(222),r(211),r(213),r(216),r(215),r(230),r(155),r(302),r(307),r(184),r(303),r(304),r(305),r(306),r(287),r(183),r(185),r(186),r(342),r(331),r(332),r(337),r(340),r(341),r(335),r(338),r(336),r(339),r(333),r(334),r(288),r(289),r(290),r(291),r(292),r(295),r(293),r(294),r(296),r(297),r(298),r(299),r(301),r(300),r(343),r(369),r(372),r(371),r(373),r(374),r(370),r(375),r(376),r(354),r(357),r(353),r(351),r(352),r(355),r(356),r(346),r(368),r(377),r(345),r(347),r(349),r(348),r(350),r(359),r(360),r(362),r(361),r(364),r(363),r(365),r(366),r(367),r(344),r(358),r(380),r(379),r(378),t.exports=r(52)},function(t,n){function r(t,n){if("string"==typeof n)return t.insertAdjacentHTML("afterend",n);var r=t.nextSibling;return r?t.parentNode.insertBefore(n,r):t.parentNode.appendChild(n)}t.exports=r},,,,,,,,,function(t,n,r){(function(n,r){!function(n){"use strict";function e(t,n,r,e){var i=n&&n.prototype instanceof o?n:o,u=Object.create(i.prototype),c=new p(e||[]);return u._invoke=s(t,r,c),u}function i(t,n,r){try{return{type:"normal",arg:t.call(n,r)}}catch(t){return{type:"throw",arg:t}}}function o(){}function u(){}function c(){}function f(t){["next","throw","return"].forEach(function(n){t[n]=function(t){return this._invoke(n,t)}})}function a(t){function n(r,e,o,u){var c=i(t[r],t,e);if("throw"!==c.type){var f=c.arg,a=f.value;return a&&"object"==typeof a&&m.call(a,"__await")?Promise.resolve(a.__await).then(function(t){n("next",t,o,u)},function(t){n("throw",t,o,u)}):Promise.resolve(a).then(function(t){f.value=t,o(f)},u)}u(c.arg)}function e(t,r){function e(){return new Promise(function(e,i){n(t,r,e,i)})}return o=o?o.then(e,e):e()}"object"==typeof r&&r.domain&&(n=r.domain.bind(n));var o;this._invoke=e}function s(t,n,r){var e=P;return function(o,u){if(e===F)throw new Error("Generator is already running");if(e===M){if("throw"===o)throw u;return y()}for(r.method=o,r.arg=u;;){var c=r.delegate;if(c){var f=l(c,r);if(f){if(f===A)continue;return f}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if(e===P)throw e=M,r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);e=F;var a=i(t,n,r);if("normal"===a.type){if(e=r.done?M:j,a.arg===A)continue;return{value:a.arg,done:r.done}}"throw"===a.type&&(e=M,r.method="throw",r.arg=a.arg)}}}function l(t,n){var r=t.iterator[n.method];if(r===g){if(n.delegate=null,"throw"===n.method){if(t.iterator.return&&(n.method="return",n.arg=g,l(t,n),"throw"===n.method))return A;n.method="throw",n.arg=new TypeError("The iterator does not provide a 'throw' method")}return A}var e=i(r,t.iterator,n.arg);if("throw"===e.type)return n.method="throw",n.arg=e.arg,n.delegate=null,A;var o=e.arg;return o?o.done?(n[t.resultName]=o.value,n.next=t.nextLoc,"return"!==n.method&&(n.method="next",n.arg=g),n.delegate=null,A):o:(n.method="throw",n.arg=new TypeError("iterator result is not an object"),n.delegate=null,A)}function h(t){var n={tryLoc:t[0]};1 in t&&(n.catchLoc=t[1]),2 in t&&(n.finallyLoc=t[2],n.afterLoc=t[3]),this.tryEntries.push(n)}function v(t){var n=t.completion||{};n.type="normal",delete n.arg,t.completion=n}function p(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(h,this),this.reset(!0)}function d(t){if(t){var n=t[w];if(n)return n.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,e=function n(){for(;++r<t.length;)if(m.call(t,r))return n.value=t[r],n.done=!1,n;return n.value=g,n.done=!0,n};return e.next=e}}return{next:y}}function y(){return{value:g,done:!0}}var g,b=Object.prototype,m=b.hasOwnProperty,x="function"==typeof Symbol?Symbol:{},w=x.iterator||"@@iterator",S=x.asyncIterator||"@@asyncIterator",_=x.toStringTag||"@@toStringTag",O="object"==typeof t,E=n.regeneratorRuntime;if(E)return void(O&&(t.exports=E));E=n.regeneratorRuntime=O?t.exports:{},E.wrap=e;var P="suspendedStart",j="suspendedYield",F="executing",M="completed",A={},N={};N[w]=function(){return this};var T=Object.getPrototypeOf,I=T&&T(T(d([])));I&&I!==b&&m.call(I,w)&&(N=I);var k=c.prototype=o.prototype=Object.create(N);u.prototype=k.constructor=c,c.constructor=u,c[_]=u.displayName="GeneratorFunction",E.isGeneratorFunction=function(t){var n="function"==typeof t&&t.constructor;return!!n&&(n===u||"GeneratorFunction"===(n.displayName||n.name))},E.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,c):(t.__proto__=c,_ in t||(t[_]="GeneratorFunction")),t.prototype=Object.create(k),t},E.awrap=function(t){return{__await:t}},f(a.prototype),a.prototype[S]=function(){return this},E.AsyncIterator=a,E.async=function(t,n,r,i){var o=new a(e(t,n,r,i));return E.isGeneratorFunction(n)?o:o.next().then(function(t){return t.done?t.value:o.next()})},f(k),k[_]="Generator",k.toString=function(){return"[object Generator]"},E.keys=function(t){var n=[];for(var r in t)n.push(r);return n.reverse(),function r(){for(;n.length;){var e=n.pop();if(e in t)return r.value=e,r.done=!1,r}return r.done=!0,r}},E.values=d,p.prototype={constructor:p,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=g,this.done=!1,this.delegate=null,this.method="next",this.arg=g,this.tryEntries.forEach(v),!t)for(var n in this)"t"===n.charAt(0)&&m.call(this,n)&&!isNaN(+n.slice(1))&&(this[n]=g)},stop:function(){this.done=!0;var t=this.tryEntries[0],n=t.completion;if("throw"===n.type)throw n.arg;return this.rval},dispatchException:function(t){function n(n,e){return o.type="throw",o.arg=t,r.next=n,e&&(r.method="next",r.arg=g),!!e}if(this.done)throw t;for(var r=this,e=this.tryEntries.length-1;e>=0;--e){var i=this.tryEntries[e],o=i.completion;if("root"===i.tryLoc)return n("end");if(i.tryLoc<=this.prev){var u=m.call(i,"catchLoc"),c=m.call(i,"finallyLoc");if(u&&c){if(this.prev<i.catchLoc)return n(i.catchLoc,!0);if(this.prev<i.finallyLoc)return n(i.finallyLoc)}else if(u){if(this.prev<i.catchLoc)return n(i.catchLoc,!0)}else{if(!c)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return n(i.finallyLoc)}}}},abrupt:function(t,n){for(var r=this.tryEntries.length-1;r>=0;--r){var e=this.tryEntries[r];if(e.tryLoc<=this.prev&&m.call(e,"finallyLoc")&&this.prev<e.finallyLoc){var i=e;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=n&&n<=i.finallyLoc&&(i=null);var o=i?i.completion:{};return o.type=t,o.arg=n,i?(this.method="next",this.next=i.finallyLoc,A):this.complete(o)},complete:function(t,n){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&n&&(this.next=n),A},finish:function(t){for(var n=this.tryEntries.length-1;n>=0;--n){var r=this.tryEntries[n];if(r.finallyLoc===t)return this.complete(r.completion,r.afterLoc),v(r),A}},catch:function(t){for(var n=this.tryEntries.length-1;n>=0;--n){var r=this.tryEntries[n];if(r.tryLoc===t){var e=r.completion;if("throw"===e.type){var i=e.arg;v(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(t,n,r){return this.delegate={iterator:d(t),resultName:n,nextLoc:r},"next"===this.method&&(this.arg=g),A}}}("object"==typeof n?n:"object"==typeof window?window:"object"==typeof self?self:this)}).call(n,function(){return this}(),r(158))}])</script><script src="/./main.0cf68a.js"></script><script>!function(){!function(e){var t=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(t),t.setAttribute("src",e)}("/slider.e37972.js")}()</script>
 
+
+
+<!DOCTYPE html>
+<html>
+
+
+        <!-- 【custom.html】 -->
+        <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+        <script>
+            var pjax = new Pjax({
+            selectors: [
+                ".container",".body-wrap",
+            ]
+            })
+        </script>
+        <script>
+            pjax._handleResponse = pjax.handleResponse;
+            pjax.handleResponse = function(responseText, request, href, options) {
+                if (request.responseText.match("<html")) {
+                    if (responseText) {
+                        // 将新页面的html字符串解析成DOM对象
+                        let newDom = new DOMParser().parseFromString(responseText, 'text/html');
+                        // 获取新页面中body的className，并设置回当前页面
+                        let bodyClass = newDom.body.className;
+                        document.body.setAttribute("class", bodyClass)
+                    }
+                    // 放行，交给pjax自己处理
+                    pjax._handleResponse(responseText, request, href, options);
+                } else {
+                    // handle non-HTML response here
+                }
+            }
+        </script>
+
+
+        
+
+</html>
 
     
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
@@ -1079,7 +1127,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">此处长眠着&lt;br&gt;一个总把伞借给别人&lt;br&gt;自己却感冒的傻瓜&lt;br&gt;——直到雨季结束才明白&lt;br&gt;干燥的灵魂不需要雨具</div>
   	  	
     	</section>
     
@@ -1153,5 +1201,101 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 </div>
   </div>
+<!-- 插入在 </body> 标签之前 -->
+<div id="aplayer-global" class="aplayer"></div>
+
+
+
 </body>
-</html>
+
+
+<head>
+  <!-- APlayer 样式 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+</head>
+<body>
+  <!-- 播放器容器 -->
+  <div id="aplayer"></div>
+
+  <!-- 依赖库 -->
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+  <!-- 主逻辑 -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      // 初始化播放器
+      const ap = new APlayer({
+          container: document.getElementById('aplayer'),
+          fixed: true,
+          mini: true,
+          autoplay: false,
+          mutex: true,
+          theme: '#2980b9',
+          loop: 'all',
+          order: 'random',
+          preload: 'auto',
+          audio: []
+      });
+
+      // 状态保存系统
+      window.onbeforeunload = () => {
+          localStorage.setItem("playInfo", JSON.stringify({
+              index: ap.list.index,
+              currentTime: ap.audio.currentTime,
+              paused: ap.paused
+          }));
+      };
+
+      // 音乐加载系统
+      fetch('https://api.i-meto.com/meting/api?server=netease&type=playlist&id=13366111535')
+          .then(response => {
+              if (!response.ok) throw new Error('网络响应异常');
+              return response.json();
+          })
+          .then(data => {
+              // 数据格式标准化
+              const musicList = Array.isArray(data) ? data : [data];
+              
+              // 清空并更新播放列表
+              ap.list.clear();
+              ap.list.add(musicList);
+
+              // // 状态恢复系统
+              // const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+              // if (playInfo) {
+              //     ap.list.switch(playInfo.index);
+                  
+              //     // 使用事件监听确保加载完成
+              //     ap.on('loadeddata', () => {
+              //         ap.seek(playInfo.currentTime);
+              //         if (!playInfo.paused) ap.play();
+              //     });
+              // }
+          })
+          .catch(error => {
+              console.error('音乐加载失败:', error);
+              ap.list.add([{
+                  name: '加载失败',
+                  artist: '系统提示',
+                  url: '',
+                  cover: ''
+              }]);
+          });
+
+      // 交互式播放解锁
+      let hasUserInteracted = false;
+      document.body.addEventListener('click', () => {
+          if (!hasUserInteracted) {
+              hasUserInteracted = true;
+              if (ap.paused) ap.play();
+          }
+      });
+
+      // 全局访问（可选）
+      window.ap = ap;
+  });
+  </script>
+</body>
+
+
